@@ -91,6 +91,20 @@ Decisions (asked before starting):
 - Here I Am Lord: author "Traditional" → Dan Schutte (UG lists it under
   "Misc Praise Songs"); file renamed.
 
+### Offline from the home screen
+- Reported: the page opens offline from Safari's Reading List but not from a
+  home screen icon (a home screen app doesn't use Safari's saved copy).
+- New `sw.js` (service worker, repo root so it covers the whole site):
+  network first, saved copy when offline or after 4 s without an answer.
+  `web/js/offline.js` registers it (https or localhost only).
+  `manifest.webmanifest` + Apple meta tags in `web/template.html` (name
+  "Pagano", standalone). No icon image yet: iOS uses a screenshot.
+- Tested with `scratch/offline_test.py` (Playwright, browsers downloaded into
+  `scratch/ms-playwright` by `scratch/install_browsers.py`): load once, stop
+  the server, reload → 387 songs in Chromium and WebKit. (Playwright's
+  simulated offline mode in WebKit blocks requests before the service worker,
+  so WebKit is tested with `--server-only`.)
+
 ### Still to check by hand (in Checked.txt)
 - Songs with notes "Added Intro: with the first chord": the intro may need changing.
 - "Unusual characters" notes are mostly `|` bar lines, which are fine.

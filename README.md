@@ -257,6 +257,12 @@ appears in *All Songs*.
 - **Transposing** keeps every chord on its letter. Only when two chords are a
   single space apart (e.g. `D Em` → `D# Fm`) does the second one shift by the
   one column it needs.
+- **Offline / home screen**: the book keeps a copy of itself on the device,
+  so it also opens with no connection (airplane mode), including from an
+  iPhone home screen icon (Safari → Share → *Add to Home Screen*). Open it
+  once online after adding the icon; every later visit while online saves
+  the newest version. The home screen app remembers its settings and Sing
+  Session separately from Safari.
 
 This book and cancionero share the same website (fonsthefons.github.io), so
 they keep their remembered settings apart: each stores them under its own name.
@@ -270,7 +276,8 @@ they keep their remembered settings apart: each stores them under its own name.
 | `ModuleNotFoundError: No module named 'yaml'` | Run `venv/bin/pip install -r requirements.txt`. |
 | The build prints `Invalid songs:` | It lists each file and what's wrong (e.g. an unknown tag). Fix those files and build again. |
 | `git push` is refused | Run `git pull` first, then push again. If it says "permission denied", ask the owner for write access. |
-| The website still shows the old book | Wait a minute after pushing, then close and reopen the page. |
+| The website still shows the old book | Wait a minute after pushing, then close and reopen the page (twice if it was open offline before). |
+| The home screen icon says "not connected" | Open it once with a connection so it can save its copy; after that it works offline. |
 | `add_song.py` can't read a page | Pick another search result, or open the page, copy the song and use option 2 (paste). |
 | `only Ultimate Guitar links can be read` | This book reads Ultimate Guitar only. For another site, copy the song and paste it (option 2). |
 
@@ -313,6 +320,8 @@ web/       ─┘
 | `web/js/session.js` | Sing Session (list in the menu, + Session buttons) |
 | `web/js/session-drag.js` | Drag-and-drop reordering of the session (pointer events) |
 | `web/js/drawer.js`, `index.js`, `print.js`, `wake-lock.js` | One feature each |
+| `web/js/offline.js`, `sw.js` | Offline copy: `offline.js` registers the service worker `sw.js`, which serves the newest page when online and the saved one when not |
+| `manifest.webmanifest` | Name and full-screen look of the home screen app |
 | `song_template.md` | Starting point for a song written by hand |
 | `PROGRESS.md` | Log of what was changed and why |
 

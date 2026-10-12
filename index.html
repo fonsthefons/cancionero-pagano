@@ -6,6 +6,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
 <title>Cancionero Pagano</title>
+<!-- Home screen app: name and full-screen look; offline copy in sw.js -->
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pagano">
 <style>
 /* ============================= */
 /* THEME                         */
@@ -12445,6 +12449,17 @@ document.addEventListener("click", (event) => {
     const link = event.target.closest('a[href^="#"]');
     if (link) revealTarget(decodeURIComponent(link.hash.slice(1)));
 });
+</script>
+<script>
+// Keeps a copy of the songbook on the device (see sw.js), so it also opens
+// offline, e.g. from the home screen in airplane mode. Needs https (GitHub
+// Pages) or localhost; does nothing when index.html is opened as a file.
+
+if ("serviceWorker" in navigator && window.isSecureContext) {
+    window.addEventListener("load", () => {
+        navigator.serviceWorker.register("sw.js").catch(() => {});
+    });
+}
 </script>
 <script>
 // Printing: a dialog to choose columns and chords, and a print layout where
