@@ -249,7 +249,8 @@ def existing_song(title, songs_dir):
 # ---------- writing ----------
 
 def slug(text):
-    plain = unicodedata.normalize("NFD", text.casefold())
+    """'Don't Cry' -> 'dont_cry', 'Déjame' -> 'dejame'."""
+    plain = unicodedata.normalize("NFD", text.casefold().replace("'", ""))
     plain = "".join(c for c in plain if not unicodedata.combining(c))
     return re.sub(r"[^a-z0-9]+", "_", plain).strip("_")
 

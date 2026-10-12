@@ -1,0 +1,96 @@
+---
+title: Dreams
+autor: Fleetwood Mac
+link: "https://open.spotify.com/track/1lbXEepatjRVjoG8pZMtdp"
+added: "2025-01-05"
+song_tags:
+  english: []
+---
+
+Intro:
+G6     32000x
+
+Intro:
+
+F    G    F    G
+
+F            G
+Now here you go again
+       F                G
+You say you want your freedom
+F            G                 F    G
+Well, who am I to keep you down?
+F             G                 F                 G
+It's only right that you should play the way you feel it
+     F            G           F
+But listen carefully to the sound
+         G                  F                     G
+Of your loneliness, like a heartbeat, drives you mad
+         F            G                    F    G
+In the stillness of remembering what you had
+              F    G
+And what you lost
+              F    G
+And what you had
+              F    G
+And what you lost
+
+    Fmaj7         G6                Fmaj7    G
+Oh, thunder only happens when it's raining
+Fmaj7         G6                    Fmaj7    G
+Players only love you when they're playing
+     Fmaj7             G6                Fmaj7    G
+Say, women, they will come and they will go
+Fmaj7             G6                   Fmaj7    G
+When the rain washes you clean, you'll know
+       Fmaj7
+You'll know
+
+|(Fmaj7)| G    | G    | F    |
+
+| Am    | G    | G    | F    |
+
+F          G
+Now here I go again
+     F              G
+I see your crystal visions
+F          G            F    G
+I keep my visions to myself
+F           G               F                  G
+It's only me who wants to wrap around your dreams and
+F             G                    F
+Have you any dreams you'd like to sell
+           G                F                     G
+Dreams of loneliness like a heartbeat drives you mad
+         F            G                    F    G
+In the stillness of remembering what you had
+              F    G
+And what you lost
+              F    G
+And what you had
+                   F    G
+Ooh, and what you lost
+
+Fmaj7         G6                Fmaj7    G
+Thunder only happens when it's raining
+Fmaj7         G6                    Fmaj7    G
+Players only love you when they're playing
+Fmaj7             G6                Fmaj7    G
+Women, they will come and they will go
+Fmaj7             G6                   Fmaj7    G
+When the rain washes you clean, you'll know
+
+    Fmaj7         G6                Fmaj7    G
+Oh, thunder only happens when it's raining
+Fmaj7         G6                    Fmaj7    G
+Players only love you when they're playing
+     Fmaj7             G6                Fmaj7    G
+Say, women, they will come and they will go
+Fmaj7             G6                   Fmaj7    G
+When the rain washes you clean, you'll know
+       Fmaj7    G
+You'll know
+         Fmaj7
+You will know
+G           Fmaj7
+Ahh, you'll know

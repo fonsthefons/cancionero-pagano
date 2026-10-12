@@ -14,11 +14,12 @@ import re
 import unicodedata
 from html import escape
 
-# Standard chord symbols: Em, B7, Cmaj7, D/F#, G#m, Bb, Asus4, ...
+# Standard chord symbols: Em, B7, Cmaj7, D/F#, G#m, Bb, Asus4, A7sus2, C#m7b5, ...
 CHORD_RE = re.compile(
     r"(?<!\w)("
     r"[A-G][#b]?"
     r"(?:(?:maj|min|dim|aug|sus|add|dom)\d*|m\d*|\d+)?"
+    r"(?:(?:maj|sus|add)\d+|[#b]\d+|\d+)*"  # further parts: 7sus2, m7b5, 9#11
     r"(?:/[A-G][#b]?(?:m|maj|min|dim|aug|sus|add|dom)?\d*)?"
     r")(?!\w)"
 )

@@ -58,6 +58,43 @@ Decisions (asked before starting):
   387 songs); `add_songs.py --limit 4` into `scratch/pagano_test_songs` (4 added,
   exact versions, Spotify links).
 
+### Phase 4: GitHub
+- `gh repo create fonsthefons/cancionero-pagano --public --source . --push`.
+- Pages: `gh api -X POST repos/fonsthefons/cancionero-pagano/pages` (main, /).
+  Live at https://fonsthefons.github.io/cancionero-pagano/.
+
+### Phase 5: import of Want.txt
+- `venv/bin/python -u add_songs.py Want.txt --report Checked.txt` (background, about 3 h).
+  Songs committed and pushed every 50.
+- Result: **387 added, 0 uncertain**; every exact UG version was found. UG and
+  the web search never asked to slow down.
+- Tab / Power / Guitar Pro / Official lines got a chords version: Never Going
+  Back Again, Angelyne, Moon River, Treat You Better, Be Mine, Feel, Ojalá.
+- No Spotify/YouTube link found: Cuando Vuelva A Sevilla Por Primavera,
+  Nubes De Pegatinas, Los Piratas Del Estrecho.
+- Tags: 284 English, 103 Español; checked by author
+  (`scratch/pagano_tag_check.py`), no author has mixed tags.
+
+### Phase 6: fixes after the import
+- `importer/language.py`: each word counts once (Passenger's "I Hate" was
+  tagged Spanish because of its "la la la" chorus). Re-tagged with
+  `scratch/pagano_fix_songs.py --write`: I Hate → english, C. Tangana's
+  Me Maten → spanish.
+- `add_song.py` `slug()`: apostrophes dropped ("dont_cry", not "don_t_cry");
+  33 song files renamed by the same script. (Checked.txt still shows the old
+  file names for those songs.)
+- `builder/lyrics.py` CHORD_RE: chords with more than one ending (A7sus2,
+  D7sus4, Am7b5, Emadd9, Dmaj7sus2, D7b9) are now recognised. Before, those
+  lines showed as lyrics (no chord colour, no transposing). Checked with
+  `scratch/pagano_chord_regex_check.py`: every line that changed is a real
+  chord line, and no lyric line became one.
+- Here I Am Lord: author "Traditional" → Dan Schutte (UG lists it under
+  "Misc Praise Songs"); file renamed.
+
+### Still to check by hand (in Checked.txt)
+- Songs with notes "Added Intro: with the first chord": the intro may need changing.
+- "Unusual characters" notes are mostly `|` bar lines, which are fine.
+
 ## Blocked
 
-(nothing yet)
+(nothing)

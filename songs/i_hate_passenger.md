@@ -5,7 +5,7 @@ capo: "4"
 link: "https://open.spotify.com/track/4w2G5eXOPFWMUO9ASEBGNA"
 added: "2015-12-11"
 song_tags:
-  spanish: []
+  english: []
 ---
 
 Intro:

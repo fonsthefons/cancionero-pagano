@@ -1,6 +1,6 @@
 ---
 title: Here I Am Lord
-autor: Traditional
+autor: Dan Schutte
 link: "https://open.spotify.com/track/6no2m4yRacPSlt7fa8UKLp"
 added: "2020-07-26"
 song_tags:
