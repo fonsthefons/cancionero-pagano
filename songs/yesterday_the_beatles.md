@@ -1,0 +1,52 @@
+---
+title: Yesterday
+autor: The Beatles
+capo: "5"
+link: "https://open.spotify.com/track/76E0QcBrJSXr9wzAA8Xzgi"
+added: "2016-01-07"
+song_tags:
+  english: []
+---
+
+Intro:
+C
+
+C        Bm7       E7                 Am       G F
+Yesterday,  all my troubles seemed so far away
+       G                       C
+Now it looks as though they're here to stay
+C/B Am  D7       F     C
+Oh, I believe in yesterday
+
+C       Bm7        E7             Am         G F
+Suddenly,  I'm not half the man I used to be
+          G              C
+There's a shadow hanging over me
+C/B Am    D7       F     C
+Oh, yesterday came suddenly
+
+Bm  E7  Am  G  F           Dm6       G7       C
+Why she had to go, I don't know, she wouldn't say
+Bm E7   Am  G     F            Dm6      G7    C
+I  said something wrong, now I long for yesterday
+
+C        Bm7         E7           Am           G F
+Yesterday,  love was such an easy game to play
+      G               C
+Now I need a place to hide away
+C/B Am  D7       F     C
+Oh, I believe in yesterday
+
+Bm  E7  Am  G  F           Dm         G       C
+Why she had to go, I don't know, she wouldn't say
+Bm E7   Am  G     F            Dm       G     C
+I  said something wrong, now I long for yesterday
+
+C        Bm7         E7           Am           G F
+Yesterday,  love was such an easy game to play
+      G               C
+Now I need a place to hide away
+C/B Am  D7       F     C
+Oh, I believe in yesterday
+Am        D7      F      C
+Hmmmm hmm hmm hmm hmm hmm hmm
