@@ -1,0 +1,29 @@
+# Song titles as Ultimate Guitar writes them -> as the book writes them.
+# Ultimate Guitar drops apostrophes, dots, commas and some accents. Common
+# contractions (Dont -> Don't, Im -> I'm...) are fixed without being listed
+# here (importer/titles.py); list the rest. Edit freely.
+Lifes For The Living: Life's For The Living
+Knockin On Heavens Door: Knockin' On Heaven's Door
+The Times They Are A-Changin: The Times They Are A-Changin'
+Bob Dylans Dream: Bob Dylan's Dream
+Blowin In The Wind: Blowin' In The Wind
+Sweet Child O Mine: Sweet Child O' Mine
+Nans Song: Nan's Song
+Audition The Fools Who Dream: Audition (The Fools Who Dream)
+Surfin Usa: Surfin' USA
+Ymca: YMCA
+Breakfast At Tiffanys: Breakfast At Tiffany's
+A Hard Days Night: A Hard Day's Night
+This Years Love: This Year's Love
+Mr Brightside: Mr. Brightside
+Mr Tambourine Man: Mr. Tambourine Man
+19 Dias Y 500 Noches: 19 Días Y 500 Noches
+Solo Le Pido A Dios: Sólo Le Pido A Dios
+Tomame O Dejame: Tómame O Déjame
+Hola Buenos Dias: Hola Buenos Días
+Relax Take It Easy: Relax, Take It Easy
+Oceans Where Feet May Fail: Oceans (Where Feet May Fail)
+Anna Go To Him: Anna (Go To Him)
+Take Me Home Country Roads: Take Me Home, Country Roads
+I Cant Get No Satisfaction: (I Can't Get No) Satisfaction
+Is Your Love In Vain: Is Your Love In Vain?
