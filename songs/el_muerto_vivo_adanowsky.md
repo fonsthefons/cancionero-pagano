@@ -1,0 +1,58 @@
+---
+title: El Muerto Vivo
+autor: Adanowsky
+capo: "3"
+link: "https://open.spotify.com/track/4N6kSZujWSqZ67LGD7GTI8"
+added: "2017-11-01"
+song_tags:
+  spanish: []
+---
+
+Intro:
+Am
+
+Am
+Busco, busco
+       Em
+no encuentro, ayúdame
+Am
+Quién soy? Un alma?
+     Em
+Un cuerpo? Un espíritu?
+
+Am
+Mírame, mírame, mírame bien
+   Em
+y dímelo, dímelo
+Am
+Dios, dónde estás
+                  Em
+ahora que estoy muerto? Acércate
+    Dm
+Por qué, sabiendo que estoy muerto,
+                       E7
+por qué me siento tan vivo?
+Yo que soñé borrarme para siempre
+
+   Am
+Y ahora que mi consciencia huye
+      Em
+quién soy, quién soy?
+Am
+Qué hago? Me entrego
+                Em
+a lo que siempre fui, a lo que siempre fui?
+     Dm
+La eternidad, el Dios que tanto he buscado
+   E7
+Me abro al fin, me abro al fin...
+
+Am Em
+
+   Dm
+Me abro al fin, me abro al fin...
+       E7
+Es el parto, es el parto
+       Am
+del Universo, del Universo
+del Universo, del Universo!
