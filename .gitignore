@@ -4,3 +4,5 @@ __pycache__/
 .DS_Store
 scratch/
 .claude/
+# Added by code-review-graph
+.code-review-graph/

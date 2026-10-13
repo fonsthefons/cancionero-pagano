@@ -1,0 +1,12 @@
+title: Cancionero Pagano
+short_name: Pagano
+storage_key: cancionero-pagano
+install_tip: "off"
+notation_setting: false
+fold_tags: false
+fold_subtags: false
+sites: [ultimate_guitar]
+language_tags: true
+record_added: true
+strict_tags: true
+url: https://fonsthefons.github.io/cancionero-pagano/

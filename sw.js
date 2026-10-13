@@ -1,17 +1,22 @@
-// Offline copy of the songbook, so it also opens from the home screen with no
-// connection (registered by web/js/offline.js).
-//
-// Online: the latest page from the server, saved for later.
-// Offline, or when the network takes too long: the saved copy.
+// Service worker: keeps a copy of the book so the home-screen app opens offline.
+// Online, it fetches the newest book (and saves it); offline, or if the network
+// takes too long, it shows the last saved copy. Only used on the hosted site:
+// opening index.html as a file never registers it (see web/js/offline.js).
 
-const CACHE = "cancionero-pagano-v1";
-const PAGE = new URL("./", self.location).href; // the songbook (index.html)
-const TIMEOUT_MS = 4000;
+// Other books on the same site (<user>.github.io) have their own caches: only
+// this book's older caches, with this prefix, are ever deleted. The prefix ends
+// in "-v" so that "cancionero-v" never matches "cancionero-hakuna-v1".
+// Written by the builder from book.yaml's storage_key.
+const CACHE_PREFIX = "cancionero-pagano-v";
+const CACHE = CACHE_PREFIX + "1";
+const PAGE = "./"; // the book; every page request is answered with it
+const FILES = [PAGE, "manifest.webmanifest", "icon-180.png", "icon-512.png"];
+const NETWORK_WAIT_MS = 4000; // slow signal: show the saved copy after this
 
 self.addEventListener("install", (event) => {
     event.waitUntil(
         caches.open(CACHE)
-            .then((cache) => cache.add(PAGE))
+            .then((cache) => cache.addAll(FILES))
             .then(() => self.skipWaiting())
     );
 });
@@ -20,45 +25,57 @@ self.addEventListener("activate", (event) => {
     event.waitUntil(
         caches.keys()
             .then((keys) => Promise.all(
-                keys.filter((key) => key !== CACHE).map((key) => caches.delete(key))
-            ))
+                keys.filter((k) => k.startsWith(CACHE_PREFIX) && k !== CACHE)
+                    .map((k) => caches.delete(k))))
             .then(() => self.clients.claim())
     );
 });
 
+// Fetch the book, skipping a stale browser cache, and save it when it arrives.
+function fetchAndSave() {
+    return fetch(PAGE, { cache: "no-cache" }).then((response) => {
+        if (response.ok) {
+            const copy = response.clone();
+            caches.open(CACHE).then((cache) => cache.put(PAGE, copy));
+        }
+        return response;
+    });
+}
+
+// Newest book if it arrives in time, otherwise the saved copy.
+function bookResponse(event) {
+    const network = fetchAndSave();
+    event.waitUntil(network.catch(() => {})); // keep saving after answering from the cache
+    return new Promise((resolve) => {
+        let done = false;
+        const answer = (response) => {
+            if (!done && response) {
+                done = true;
+                resolve(response);
+            }
+        };
+        const fromCache = () => caches.match(PAGE).then(answer);
+        const timer = setTimeout(fromCache, NETWORK_WAIT_MS);
+        network
+            .then((response) => {
+                clearTimeout(timer);
+                if (response.ok) answer(response);
+                else fromCache().then(() => answer(response));
+            })
+            .catch(() => {
+                clearTimeout(timer);
+                caches.match(PAGE).then((saved) => answer(saved || Response.error()));
+            });
+    });
+}
+
 self.addEventListener("fetch", (event) => {
     const request = event.request;
-    if (request.method !== "GET") return;
-    const url = new URL(request.url);
-    if (url.origin !== self.location.origin) return; // Spotify, YouTube, ...
-
-    // Every page of the site is the one songbook page (#song-id is not sent).
-    const isPage = request.mode === "navigate"
-        || url.href === PAGE
-        || url.href === PAGE + "index.html";
-    const key = isPage ? PAGE : request;
-
-    const network = fetch(request);
-    const saved = network.then(async (response) => {
-        // A redirected response can't be served for a page later.
-        if (response.ok && !response.redirected) {
-            const copy = response.clone(); // before the page starts reading it
-            const cache = await caches.open(CACHE);
-            await cache.put(key, copy);
-        }
-    }).catch(() => {}); // offline: keep the saved copy
-    event.waitUntil(saved);
-    event.respondWith(networkFirst(network, key));
-});
-
-async function networkFirst(network, key) {
-    const slow = new Promise((resolve) => setTimeout(resolve, TIMEOUT_MS));
-    try {
-        const response = await Promise.race([network, slow]);
-        if (response) return response;
-    } catch {
-        // offline: fall through to the saved copy
+    if (request.method !== "GET" || new URL(request.url).origin !== self.location.origin) return;
+    if (request.mode === "navigate") {
+        event.respondWith(bookResponse(event));
+    } else {
+        event.respondWith(caches.match(request, { ignoreSearch: true })
+            .then((saved) => saved || fetch(request)));
     }
-    const cached = await caches.match(key);
-    return cached || network; // nothing saved yet: wait for the network
-}
+});
