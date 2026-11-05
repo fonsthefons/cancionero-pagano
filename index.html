@@ -593,9 +593,19 @@ body.drawer-open {
 }
 
 .index summary > h2,
-.index summary > h3 {
+.index summary > h3,
+.index summary > h4,
+.index summary > h5,
+.index summary > h6 {
     display: inline;
     margin: 0;
+}
+
+/* Liturgia de las Horas goes deeper than tags: keep its headings readable */
+.index summary > h4,
+.index summary > h5,
+.index summary > h6 {
+    font-size: 1rem;
 }
 
 .subtag-index {
@@ -720,7 +730,119 @@ body.drawer-open {
 }
 
 .verse {
+    margin-bottom: 2.2em;
+}
+
+/* Staff and guitar tab (melody.js): both SVGs scale to the song's width with
+   the same viewBox width, so each fret stays under its note. */
+.melody {
+    /* Drawing replaces its content: never the browser's scroll anchor, else a
+       jump to a song lands off when songs above are drawn. */
+    overflow-anchor: none;
+    max-width: 32rem;
     margin-bottom: 1.1em;
+    color: var(--ink);
+    break-inside: avoid;
+}
+
+/* Until drawn (near the screen), hold the usual staff + tab size (viewBox about
+   380 x 90 + 72), so drawing doesn't move what's on screen. */
+.melody:empty {
+    aspect-ratio: 380 / 162;
+}
+
+.melody svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.melody .abcjs-chord {
+    fill: var(--chord);
+    font-weight: bold;
+}
+
+.melody-tab line {
+    stroke: currentColor;
+    stroke-width: 0.6;
+}
+
+/* Each fret blanks the tab line behind it. */
+.melody-tab text {
+    font: bold 12px var(--sans);
+    fill: currentColor;
+    text-anchor: middle;
+    dominant-baseline: central;
+    paint-order: stroke;
+    stroke: var(--page);
+    stroke-width: 4px;
+}
+
+.melody-tab .melody-tab-label {
+    font-size: 9px;
+}
+
+/* Play / pause (melody.js), in the song's controls; a psalm shows it once it has
+   a fórmula. */
+.song:not(:has(.melody)) .melody-play {
+    display: none;
+}
+
+.melody .melody-playing {
+    fill: var(--chord);
+}
+
+/* Psalm fórmulas (formula.js): the chosen semitono above the psalm, set apart. */
+.formula-pick {
+    margin-bottom: 12px;
+}
+
+.psalm-formula:not(:empty) {
+    margin-bottom: 1.2em;
+    padding-bottom: 0.6em;
+    border-bottom: 1px solid var(--border);
+}
+
+.formula-dialog {
+    box-sizing: border-box;
+    width: min(26rem, calc(100vw - 32px));
+    max-height: calc(100dvh - 32px);
+    padding: 16px;
+}
+
+.formula-dialog[open] {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.formula-dialog input {
+    font: inherit;
+    padding: 8px;
+}
+
+.formula-options {
+    overflow-y: auto;
+    min-height: 0;
+}
+
+.formula-options h4 {
+    margin: 0.8em 0 0.3em;
+}
+
+.formula-options button {
+    display: block;
+    width: 100%;
+    margin: 2px 0;
+    text-align: left;
+}
+
+.formula-options button[aria-pressed="true"] {
+    font-weight: bold;
+}
+
+.formula-options [hidden] {
+    display: none;
 }
 
 /* Never split a verse or a chord+lyric pair across columns/pages */
@@ -836,6 +958,7 @@ body[data-columns="2"] .song:not([data-columns="1"]),
     .backdrop,
     .drawer,
     .controls,
+    .formula-pick,
     .install-banner,
     .print-dialog {
         display: none !important;
@@ -991,11 +1114,11 @@ body[data-columns="2"] .song:not([data-columns="1"]),
   <h1>Contenido</h1>
   <details class="tag-index" id="tag-english" open><summary><h2>English</h2></summary>
 <ul class="song-list">
-<li><a href="#song-1973_james_blunt">2. 1973 - James Blunt</a></li>
-<li><a href="#song-21_guns_green_day">3. 21 Guns - Green Day</a></li>
-<li><a href="#song-25_minutes_michael_learns_to_rock">4. 25 Minutes - Michael Learns to Rock</a></li>
-<li><a href="#song-5_years_time_noah_and_the_whale">5. 5 Years Time - Noah and the Whale</a></li>
-<li><a href="#song-7_years_lukas_graham">6. 7 Years - Lukas Graham</a></li>
+<li><a href="#song-5_years_time_noah_and_the_whale">1. 5 Years Time - Noah and the Whale</a></li>
+<li><a href="#song-7_years_lukas_graham">2. 7 Years - Lukas Graham</a></li>
+<li><a href="#song-21_guns_green_day">4. 21 Guns - Green Day</a></li>
+<li><a href="#song-25_minutes_michael_learns_to_rock">5. 25 Minutes - Michael Learns to Rock</a></li>
+<li><a href="#song-1973_james_blunt">6. 1973 - James Blunt</a></li>
 <li><a href="#song-a_hard_days_night_the_beatles">7. A Hard Day&#x27;s Night - The Beatles</a></li>
 <li><a href="#song-a_million_dreams_the_greatest_showman">9. A Million Dreams - The Greatest Showman</a></li>
 <li><a href="#song-accidentally_in_love_counting_crows">10. Accidentally In Love - Counting Crows</a></li>
@@ -1279,7 +1402,7 @@ body[data-columns="2"] .song:not([data-columns="1"]),
 </details>
 <details class="tag-index" id="tag-spanish" open><summary><h2>Español</h2></summary>
 <ul class="song-list">
-<li><a href="#song-19_dias_y_500_noches_joaquin_sabina">1. 19 Días Y 500 Noches - Joaquín Sabina</a></li>
+<li><a href="#song-19_dias_y_500_noches_joaquin_sabina">3. 19 Días Y 500 Noches - Joaquín Sabina</a></li>
 <li><a href="#song-a_la_luz_del_lorenzo_los_delinquentes">8. A La Luz Del Lorenzo - Los Delinqüentes</a></li>
 <li><a href="#song-alfileres_de_colores_diego_carrasco">12. Alfileres De Colores - Diego Carrasco</a></li>
 <li><a href="#song-alquitran_y_carmin_el_kanka">16. Alquitrán Y Carmín - El Kanka</a></li>
@@ -1386,12 +1509,12 @@ body[data-columns="2"] .song:not([data-columns="1"]),
 </details>
   <details class="tag-index" id="all-songs" open><summary><h2>All Songs</h2></summary>
 <ul class="song-list">
-<li><a href="#song-19_dias_y_500_noches_joaquin_sabina">1. 19 Días Y 500 Noches - Joaquín Sabina</a></li>
-<li><a href="#song-1973_james_blunt">2. 1973 - James Blunt</a></li>
-<li><a href="#song-21_guns_green_day">3. 21 Guns - Green Day</a></li>
-<li><a href="#song-25_minutes_michael_learns_to_rock">4. 25 Minutes - Michael Learns to Rock</a></li>
-<li><a href="#song-5_years_time_noah_and_the_whale">5. 5 Years Time - Noah and the Whale</a></li>
-<li><a href="#song-7_years_lukas_graham">6. 7 Years - Lukas Graham</a></li>
+<li><a href="#song-5_years_time_noah_and_the_whale">1. 5 Years Time - Noah and the Whale</a></li>
+<li><a href="#song-7_years_lukas_graham">2. 7 Years - Lukas Graham</a></li>
+<li><a href="#song-19_dias_y_500_noches_joaquin_sabina">3. 19 Días Y 500 Noches - Joaquín Sabina</a></li>
+<li><a href="#song-21_guns_green_day">4. 21 Guns - Green Day</a></li>
+<li><a href="#song-25_minutes_michael_learns_to_rock">5. 25 Minutes - Michael Learns to Rock</a></li>
+<li><a href="#song-1973_james_blunt">6. 1973 - James Blunt</a></li>
 <li><a href="#song-a_hard_days_night_the_beatles">7. A Hard Day&#x27;s Night - The Beatles</a></li>
 <li><a href="#song-a_la_luz_del_lorenzo_los_delinquentes">8. A La Luz Del Lorenzo - Los Delinqüentes</a></li>
 <li><a href="#song-a_million_dreams_the_greatest_showman">9. A Million Dreams - The Greatest Showman</a></li>
@@ -1778,8 +1901,64 @@ body[data-columns="2"] .song:not([data-columns="1"]),
 </section>
 
 <main class="songs">
+<article class="song" id="song-5_years_time_noah_and_the_whale" data-title="5 Years Time" data-autor="Noah and the Whale" style="--chars: 67">
+<h3>1. 5 Years Time - Noah and the Whale</h3>
+<p class="song-meta"><span class="meta-item">Autor: Noah and the Whale</span><span class="meta-item">Capo: 5</span><a class="meta-item" href="https://open.spotify.com/track/12je8giC2S9smUHJ81tpiL" target="_blank" rel="noopener">Spotify link</a></p>
+<div class="controls">
+  <button data-action="toggle-chords">Chords</button>
+  <div class="stepper">
+    <button data-action="transpose-down" aria-label="Transpose down">−</button>
+    <button class="transpose-value" data-action="transpose-reset" aria-label="Reset transpose">0</button>
+    <button data-action="transpose-up" aria-label="Transpose up">+</button>
+  </div>
+  <button data-action="toggle-columns">Columns</button>
+  <button data-action="session-toggle" aria-pressed="false">+ Session</button>
+</div>
+<div class="lyrics">
+<div class="verse"><div class="lyric-line">Intro:</div><div class="chord-line">G C D C</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">           G          C                D               C</div>Oh well in five years time we could be walking round a zoo</div><div class="line-pair"><div class="chord-line">         G           C         D      C</div>With the sun shining down over me and you</div><div class="line-pair"><div class="chord-line">                G           C             D         C</div>And there'll be love in the bodies of the elephants too</div><div class="line-pair"><div class="chord-line">                G           C             D           C</div>And I'll put my hands over your eyes, but you'll peep through</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">                G       C</div>And there'll be sun sun sun</div><div class="line-pair"><div class="chord-line">D            C</div>All over our bodies</div><div class="line-pair"><div class="chord-line">    G       C</div>And sun sun sun</div><div class="line-pair"><div class="chord-line">D            C</div>All down our necks</div><div class="line-pair"><div class="chord-line">    G       C</div>And sun sun sun</div><div class="line-pair"><div class="chord-line">D            C</div>All over our faces</div><div class="line-pair"><div class="chord-line">    G       C</div>And sun sun sun</div><div class="line-pair"><div class="chord-line">D          C</div>So what the heck</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">                G               C   D            C</div>Cause I'll be laughing at all your silly little jokes</div><div class="line-pair"><div class="chord-line">               G               C     D        C</div>And we'll be laughing about how we used to smoke</div><div class="line-pair"><div class="chord-line">            G              C</div>All those stupid little cigarettes</div><div class="line-pair"><div class="chord-line">       D          C</div>And drink stupid wine</div><div class="line-pair"><div class="chord-line">          G           C      D           C</div>Cause it's what we needed to have a good time</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">           G       C</div>And it was fun fun fun</div><div class="line-pair"><div class="chord-line">   D            C</div>When we were drinking</div><div class="line-pair"><div class="chord-line">       G       C</div>It was fun fun fun</div><div class="line-pair"><div class="chord-line">   D           C</div>When we were drunk</div><div class="line-pair"><div class="chord-line">           G       C</div>And it was fun fun fun</div><div class="line-pair"><div class="chord-line">   D           C</div>When we were laughing</div><div class="line-pair"><div class="chord-line">       G       C     D</div>It was fun fun fun</div><div class="line-pair"><div class="chord-line">          C</div>Oh it was fun</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">           G               C                        D             C</div>Oh well I look at you and say it's the happiest that I've ever been</div><div class="line-pair"><div class="chord-line">            G             C             D          C</div>And I'll say I no longer feel I have to be James Dean</div><div class="line-pair"><div class="chord-line">                G           C        D            C</div>And she'll say yah well I feel all pretty happy too</div><div class="line-pair"><div class="chord-line">          G            C                   D                 C</div>And I'm always pretty happy when I'm just kicking back with you</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">                G          C      D</div>And there'll be love love love</div><div class="line-pair"><div class="chord-line">                 C</div>All through our bodies</div><div class="line-pair"><div class="chord-line">    G          C      D</div>And love love love</div><div class="line-pair"><div class="chord-line">                 C</div>All through our minds</div><div class="line-pair"><div class="chord-line">                G          C      D</div>And there'll be love love love</div><div class="line-pair"><div class="chord-line">          C</div>All over her face</div><div class="line-pair"><div class="chord-line">    G          C      D</div>And love love love</div><div class="line-pair"><div class="chord-line">          C</div>All over mine</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">          G               C           D           C</div>Although maybe all these moments are just in my head</div><div class="line-pair"><div class="chord-line">           G            C           D          C</div>I'll be thinking about them as I'm lying in bed</div><div class="line-pair"><div class="chord-line">            G       C               D            C</div>And all that I believe might never really come true</div><div class="line-pair"><div class="chord-line">            G         C                  D           C</div>But in my mind I'm having a pretty good time with you</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">       G         C     D</div>Oh in five years time</div><div class="line-pair"><div class="chord-line">             C</div>I might not know you</div><div class="line-pair"><div class="chord-line">G          C      D</div>Five years time</div><div class="line-pair"><div class="chord-line">               C</div>We might not speak</div><div class="line-pair"><div class="chord-line">      G          C      D</div>Oh in five years time</div><div class="line-pair"><div class="chord-line">             C</div>We might not get along</div><div class="line-pair"><div class="chord-line">   G          C       D</div>In five years time</div><div class="line-pair"><div class="chord-line">               C          G     C  D  C</div>You might just prove me wrong</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">               G         C      D</div>Oh there'll be love love love</div><div class="line-pair"><div class="chord-line">         C</div>Wherever you go</div><div class="lyric-line">There'll be love love love</div><div class="lyric-line">Wherever you go</div><div class="lyric-line">There'll be love love love</div><div class="lyric-line">Wherever you go</div><div class="lyric-line">There'll be love love love</div><div class="lyric-line">Wherever you go</div><div class="lyric-line">There'll be love love love</div><div class="lyric-line">Wherever you go</div><div class="lyric-line">There'll be love love love</div><div class="lyric-line">Wherever you go</div><div class="lyric-line">There'll be love love love</div><div class="lyric-line">Wherever you go there'll be love</div></div>
+</div>
+</article>
+<article class="song" id="song-7_years_lukas_graham" data-title="7 Years" data-autor="Lukas Graham" style="--chars: 63">
+<h3>2. 7 Years - Lukas Graham</h3>
+<p class="song-meta"><span class="meta-item">Autor: Lukas Graham</span><a class="meta-item" href="https://open.spotify.com/track/5kqIPrATaCc2LqxVWzQGbk" target="_blank" rel="noopener">Spotify link</a></p>
+<div class="controls">
+  <button data-action="toggle-chords">Chords</button>
+  <div class="stepper">
+    <button data-action="transpose-down" aria-label="Transpose down">−</button>
+    <button class="transpose-value" data-action="transpose-reset" aria-label="Reset transpose">0</button>
+    <button data-action="transpose-up" aria-label="Transpose up">+</button>
+  </div>
+  <button data-action="toggle-columns">Columns</button>
+  <button data-action="session-toggle" aria-pressed="false">+ Session</button>
+</div>
+<div class="lyrics">
+<div class="verse"><div class="lyric-line">Intro:</div><div class="chord-line">Gm Gm Eb  F Bb Bb</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">Gm7                    Bb                Eb</div>Once I was seven years old, my mama told me</div><div class="line-pair"><div class="chord-line">                                           F</div>Go make yourself some friends or you'll be lonely</div><div class="line-pair"><div class="chord-line">Gm7                    Bb     Eb</div>Once I was seven years old</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">Gm                        Bb</div>   It was a big, big world, but we thought we were bigger</div><div class="line-pair"><div class="chord-line">Eb                                           F</div>   Pushing each other to the limits, we were learning quicker</div><div class="line-pair"><div class="chord-line">Gm                   Bb</div>   By eleven smoking herb and drinking burning liquor</div><div class="line-pair"><div class="chord-line">Eb                                        F</div>   Never rich so we were out to make that steady figure</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">Gm7                       Bb            Eb</div>Once I was eleven years old, daddy told me,</div><div class="line-pair"><div class="chord-line">                                    F</div>Go get yourself a wife or you'll be lonely</div><div class="line-pair"><div class="chord-line">Gm7                     Bb         Eb</div>Once I was eleven years old</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">Gm                  Bb</div>  I always had that dream like my daddy before me</div><div class="line-pair"><div class="chord-line">Eb                                      F               Gm</div>  So I started writing songs, I started writing stories</div><div class="line-pair"><div class="chord-line">Gm                        Bb</div>Something about that glory, just always seemed to bore me</div><div class="line-pair"><div class="chord-line">       Eb                                 F           Gm</div>'Cause only those I really love will ever really know me</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">Gm7                         Bb               Eb</div>Once I was twenty years old, my story got told</div><div class="line-pair"><div class="chord-line">Eb                                    F     Gm</div>Before the morning sun, when life was lonely</div><div class="line-pair"><div class="chord-line">Gm7                     Bb          Eb</div>Once I was twenty years old</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">Gm              Bb</div>  I only see my goals, I don't believe in failure</div><div class="line-pair"><div class="chord-line">Eb                                           F            Gm</div>  'Cause I know the smallest voices, they can make it major</div><div class="line-pair"><div class="chord-line">Gm                   Bb</div>I got my boys with me, at least those in favor</div><div class="line-pair"><div class="chord-line">    Eb                                          F            Gm</div>And if we don't see before I leave, I hope I'll see you later</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">Gm7                 Bb                Eb</div>Once I was 20 years old, my story got told</div><div class="line-pair"><div class="chord-line">Eb                                     F         Gm</div>I was writing about everything I saw before me</div><div class="line-pair"><div class="chord-line">Gm7                 Bb     Eb</div>Once I was 20 years old</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">Gm7                    Bb                       Eb</div>Soon we'll be 30 years old, our songs have been sold</div><div class="line-pair"><div class="chord-line">                                                F      Gm</div>We've traveled around the world and we're still roaming</div><div class="line-pair"><div class="chord-line">Gm7                    Bb       Eb       Bb</div>Soon we'll be 30 years old</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">    Gm              F   Bb</div>I'm still learning about life,</div><div class="line-pair"><div class="chord-line">Bb</div>my woman brought children for me</div><div class="line-pair"><div class="chord-line">Eb</div>So I can sing them all my songs</div><div class="line-pair"><div class="chord-line">          F                Gm</div>and I can tell them stories</div><div class="line-pair"><div class="chord-line">Gm</div>Most of my boys are with me,</div><div class="line-pair"><div class="chord-line">Bb</div>some are still out seeking glory</div><div class="line-pair"><div class="chord-line">    Eb</div>And some I had to leave behind,</div><div class="line-pair"><div class="chord-line">           F               Gm</div>my brother I'm still sorry</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">Gm7                   Bb</div>Soon I'll be 60 years old, my daddy got 61</div><div class="line-pair"><div class="chord-line">Eb                                         F         Gm7</div>Remember life and then your life becomes a better one</div><div class="line-pair"><div class="chord-line">Gm7                   Bb</div>I made a man so happy when I wrote a letter once</div><div class="line-pair"><div class="chord-line">Eb</div>I hope my children come and visit, once or twice a month</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">Gm7                      Bb                             Eb</div>Soon I'll be sixty years old, will I think the world is cold</div><div class="line-pair"><div class="chord-line">                                         F      Gm7</div>Or will I have a lot of children who can warm me</div><div class="line-pair"><div class="chord-line">Gm7                Bb</div>Soon I'll be 60 years old</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">Gm7                      Bb                             Eb</div>Soon I'll be sixty years old, will I think the world is cold</div><div class="line-pair"><div class="chord-line">                                         F      Gm7</div>Or will I have a lot of children who can warm me</div><div class="line-pair"><div class="chord-line">Gm7                Bb</div>Soon I'll be 60 years old</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">Gm               Bb                        Eb</div>Once I was seven years old, my mama told me</div><div class="line-pair"><div class="chord-line">                                           F     Gm</div>Go make yourself some friends or you'll be lonely</div><div class="line-pair"><div class="chord-line">                      Bb      Eb    Bb</div>Once I was seven years old</div><div class="line-pair"><div class="chord-line">Gm              F         Bb</div>Once I was seven years old</div></div>
+</div>
+</article>
 <article class="song" id="song-19_dias_y_500_noches_joaquin_sabina" data-title="19 Días Y 500 Noches" data-autor="Joaquín Sabina" style="--chars: 68">
-<h3>1. 19 Días Y 500 Noches - Joaquín Sabina</h3>
+<h3>3. 19 Días Y 500 Noches - Joaquín Sabina</h3>
 <p class="song-meta"><span class="meta-item">Autor: Joaquín Sabina</span><a class="meta-item" href="https://open.spotify.com/track/6V78ktWCGcJIIB5DPJBoPn" target="_blank" rel="noopener">Spotify link</a></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
@@ -1810,38 +1989,8 @@ body[data-columns="2"] .song:not([data-columns="1"]),
 <div class="verse"><div class="line-pair"><div class="chord-line">  A</div>Y eso que yo,</div><div class="line-pair"><div class="chord-line">           A                  A</div>para no agobiar con flores a María,</div><div class="line-pair"><div class="chord-line">          A                    A</div>para no asediarla con mi antología</div><div class="line-pair"><div class="chord-line">        A                      A</div>de sábanas frías y alcobas vacías,</div><div class="line-pair"><div class="chord-line">          A                A</div>para no comprarla con bisutería,</div><div class="line-pair"><div class="chord-line">            A                   A</div>ni ser el fantoche que va en romería,</div><div class="line-pair"><div class="chord-line">           A                    E</div>con la cofradía del Santo Reproche,</div><div class="line-pair"><div class="chord-line">             B7        F#m                      B7</div>tanto la quería, que tardé en aprender a olvidarla,</div><div class="line-pair"><div class="chord-line">             E</div>19 días, y 500 noches.</div></div>
 </div>
 </article>
-<article class="song" id="song-1973_james_blunt" data-title="1973" data-autor="James Blunt" style="--chars: 45">
-<h3>2. 1973 - James Blunt</h3>
-<p class="song-meta"><span class="meta-item">Autor: James Blunt</span><span class="meta-item">Capo: 2</span><a class="meta-item" href="https://open.spotify.com/track/1BV0m40U0M4t1SLIsDnwZl" target="_blank" rel="noopener">Spotify link</a></p>
-<div class="controls">
-  <button data-action="toggle-chords">Chords</button>
-  <div class="stepper">
-    <button data-action="transpose-down" aria-label="Transpose down">−</button>
-    <button class="transpose-value" data-action="transpose-reset" aria-label="Reset transpose">0</button>
-    <button data-action="transpose-up" aria-label="Transpose up">+</button>
-  </div>
-  <button data-action="toggle-columns">Columns</button>
-  <button data-action="session-toggle" aria-pressed="false">+ Session</button>
-</div>
-<div class="lyrics">
-<div class="verse"><div class="lyric-line">Intro:</div><div class="chord-line">Em Em7 C G</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">Em                     Em7</div>Simona, you're getting older</div><div class="line-pair"><div class="chord-line">               C</div>your journey's been</div><div class="line-pair"><div class="chord-line">               G    D</div>etched on your skin</div><div class="line-pair"><div class="chord-line">Em                 Em7</div>Simona, wish I had known that</div><div class="line-pair"><div class="chord-line">              C</div>what seems so strong</div><div class="line-pair"><div class="chord-line">             D  B7</div>has been and gone</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">   Em</div>I would call you up every Saturday night</div><div class="line-pair"><div class="chord-line">         Em7</div>And we'd both stay out 'til the morning light</div><div class="line-pair"><div class="chord-line">         C                G     D</div>And we sang, "Here we go again"</div><div class="line-pair"><div class="chord-line">            Em</div>And though time goes by</div></div>
-<div class="verse"><div class="lyric-line">I will always be</div><div class="line-pair"><div class="chord-line">     Em7</div>In a club with you</div><div class="line-pair"><div class="chord-line">      C</div>In 1973</div><div class="line-pair"><div class="chord-line">                     G     D</div>Singing "Here we go again"</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">  Em</div>Simona</div><div class="line-pair"><div class="chord-line">           Em7</div>Wish I was sober</div><div class="line-pair"><div class="chord-line">                  C</div>So I could see clearly now</div><div class="line-pair"><div class="chord-line">             G   D</div>The rain has gone</div><div class="line-pair"><div class="chord-line">Em</div>Simona</div><div class="line-pair"><div class="chord-line">             Em7</div>I guess it's over</div><div class="line-pair"><div class="chord-line">            C</div>My memory plays our tune</div><div class="line-pair"><div class="chord-line">             D   B7</div>The same old song</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">   Em</div>I would call you up every Saturday night</div><div class="line-pair"><div class="chord-line">         Em7</div>And we'd both stay out 'til the morning light</div><div class="line-pair"><div class="chord-line">         C                G     D</div>And we sang, "Here we go again"</div><div class="line-pair"><div class="chord-line">            Em</div>And though time goes by</div></div>
-<div class="verse"><div class="lyric-line">I will always be</div><div class="line-pair"><div class="chord-line">     Em7</div>In a club with you</div><div class="line-pair"><div class="chord-line">      C</div>In 1973</div><div class="line-pair"><div class="chord-line">                     G     D</div>Singing "Here we go again"</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">C    Am   G    D</div>Ahhh ahhh ahhh ahhh</div><div class="line-pair"><div class="chord-line">C    Am   D    B7</div>Ahhh ahhh ahhh</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">   Em</div>I would call you up every Saturday night</div><div class="line-pair"><div class="chord-line">         Em7</div>And we'd both stay out 'til the morning light</div><div class="line-pair"><div class="chord-line">         C                G     D</div>And we sang, "Here we go again"</div><div class="line-pair"><div class="chord-line">            Em</div>And though time goes by</div></div>
-<div class="verse"><div class="lyric-line">I will always be</div><div class="line-pair"><div class="chord-line">     Em7</div>In a club with you</div><div class="line-pair"><div class="chord-line">      C</div>In 1973</div><div class="line-pair"><div class="chord-line">                     G     D</div>Singing "Here we go again"</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">   Em</div>I would call you up every Saturday night</div><div class="line-pair"><div class="chord-line">         Em7</div>And we'd both stay out 'til the morning light</div><div class="line-pair"><div class="chord-line">         C                G     D</div>And we sang, "Here we go again"</div><div class="line-pair"><div class="chord-line">            Em</div>And though time goes by</div></div>
-<div class="verse"><div class="lyric-line">I will always be</div><div class="line-pair"><div class="chord-line">     Em7</div>In a club with you</div><div class="line-pair"><div class="chord-line">      C</div>In 1973</div><div class="line-pair"><div class="chord-line">                     G     D</div>Singing "Here we go again"</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">            Cmaj7</div>And though time goes by</div></div>
-<div class="verse"><div class="lyric-line">I will always be</div><div class="line-pair"><div class="chord-line">     D</div>In a club with you</div><div class="line-pair"><div class="chord-line">   Dsus4 D  G</div>In 19-   7- 3</div></div>
-</div>
-</article>
 <article class="song" id="song-21_guns_green_day" data-title="21 Guns" data-autor="Green Day" style="--chars: 48">
-<h3>3. 21 Guns - Green Day</h3>
+<h3>4. 21 Guns - Green Day</h3>
 <p class="song-meta"><span class="meta-item">Autor: Green Day</span><a class="meta-item" href="https://open.spotify.com/track/64yrDBpcdwEdNY9loyEGbX" target="_blank" rel="noopener">Spotify link</a></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
@@ -1870,7 +2019,7 @@ body[data-columns="2"] .song:not([data-columns="1"]),
 </div>
 </article>
 <article class="song" id="song-25_minutes_michael_learns_to_rock" data-title="25 Minutes" data-autor="Michael Learns to Rock" style="--chars: 67">
-<h3>4. 25 Minutes - Michael Learns to Rock</h3>
+<h3>5. 25 Minutes - Michael Learns to Rock</h3>
 <p class="song-meta"><span class="meta-item">Autor: Michael Learns to Rock</span><a class="meta-item" href="https://open.spotify.com/track/0spep9kiVz8ygYXCy4WCcz" target="_blank" rel="noopener">Spotify link</a></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
@@ -1895,9 +2044,9 @@ body[data-columns="2"] .song:not([data-columns="1"]),
 <div class="verse"><div class="line-pair"><div class="chord-line">                         F#</div>   I can still hear her say</div><div class="chord-line">F# F#7  B Bm  D#m C#</div><div class="chord-line"><span class="sep">N.</span>C<span class="sep">.</span></div></div>
 </div>
 </article>
-<article class="song" id="song-5_years_time_noah_and_the_whale" data-title="5 Years Time" data-autor="Noah and the Whale" style="--chars: 67">
-<h3>5. 5 Years Time - Noah and the Whale</h3>
-<p class="song-meta"><span class="meta-item">Autor: Noah and the Whale</span><span class="meta-item">Capo: 5</span><a class="meta-item" href="https://open.spotify.com/track/12je8giC2S9smUHJ81tpiL" target="_blank" rel="noopener">Spotify link</a></p>
+<article class="song" id="song-1973_james_blunt" data-title="1973" data-autor="James Blunt" style="--chars: 45">
+<h3>6. 1973 - James Blunt</h3>
+<p class="song-meta"><span class="meta-item">Autor: James Blunt</span><span class="meta-item">Capo: 2</span><a class="meta-item" href="https://open.spotify.com/track/1BV0m40U0M4t1SLIsDnwZl" target="_blank" rel="noopener">Spotify link</a></p>
 <div class="controls">
   <button data-action="toggle-chords">Chords</button>
   <div class="stepper">
@@ -1909,46 +2058,20 @@ body[data-columns="2"] .song:not([data-columns="1"]),
   <button data-action="session-toggle" aria-pressed="false">+ Session</button>
 </div>
 <div class="lyrics">
-<div class="verse"><div class="lyric-line">Intro:</div><div class="chord-line">G C D C</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">           G          C                D               C</div>Oh well in five years time we could be walking round a zoo</div><div class="line-pair"><div class="chord-line">         G           C         D      C</div>With the sun shining down over me and you</div><div class="line-pair"><div class="chord-line">                G           C             D         C</div>And there'll be love in the bodies of the elephants too</div><div class="line-pair"><div class="chord-line">                G           C             D           C</div>And I'll put my hands over your eyes, but you'll peep through</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">                G       C</div>And there'll be sun sun sun</div><div class="line-pair"><div class="chord-line">D            C</div>All over our bodies</div><div class="line-pair"><div class="chord-line">    G       C</div>And sun sun sun</div><div class="line-pair"><div class="chord-line">D            C</div>All down our necks</div><div class="line-pair"><div class="chord-line">    G       C</div>And sun sun sun</div><div class="line-pair"><div class="chord-line">D            C</div>All over our faces</div><div class="line-pair"><div class="chord-line">    G       C</div>And sun sun sun</div><div class="line-pair"><div class="chord-line">D          C</div>So what the heck</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">                G               C   D            C</div>Cause I'll be laughing at all your silly little jokes</div><div class="line-pair"><div class="chord-line">               G               C     D        C</div>And we'll be laughing about how we used to smoke</div><div class="line-pair"><div class="chord-line">            G              C</div>All those stupid little cigarettes</div><div class="line-pair"><div class="chord-line">       D          C</div>And drink stupid wine</div><div class="line-pair"><div class="chord-line">          G           C      D           C</div>Cause it's what we needed to have a good time</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">           G       C</div>And it was fun fun fun</div><div class="line-pair"><div class="chord-line">   D            C</div>When we were drinking</div><div class="line-pair"><div class="chord-line">       G       C</div>It was fun fun fun</div><div class="line-pair"><div class="chord-line">   D           C</div>When we were drunk</div><div class="line-pair"><div class="chord-line">           G       C</div>And it was fun fun fun</div><div class="line-pair"><div class="chord-line">   D           C</div>When we were laughing</div><div class="line-pair"><div class="chord-line">       G       C     D</div>It was fun fun fun</div><div class="line-pair"><div class="chord-line">          C</div>Oh it was fun</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">           G               C                        D             C</div>Oh well I look at you and say it's the happiest that I've ever been</div><div class="line-pair"><div class="chord-line">            G             C             D          C</div>And I'll say I no longer feel I have to be James Dean</div><div class="line-pair"><div class="chord-line">                G           C        D            C</div>And she'll say yah well I feel all pretty happy too</div><div class="line-pair"><div class="chord-line">          G            C                   D                 C</div>And I'm always pretty happy when I'm just kicking back with you</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">                G          C      D</div>And there'll be love love love</div><div class="line-pair"><div class="chord-line">                 C</div>All through our bodies</div><div class="line-pair"><div class="chord-line">    G          C      D</div>And love love love</div><div class="line-pair"><div class="chord-line">                 C</div>All through our minds</div><div class="line-pair"><div class="chord-line">                G          C      D</div>And there'll be love love love</div><div class="line-pair"><div class="chord-line">          C</div>All over her face</div><div class="line-pair"><div class="chord-line">    G          C      D</div>And love love love</div><div class="line-pair"><div class="chord-line">          C</div>All over mine</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">          G               C           D           C</div>Although maybe all these moments are just in my head</div><div class="line-pair"><div class="chord-line">           G            C           D          C</div>I'll be thinking about them as I'm lying in bed</div><div class="line-pair"><div class="chord-line">            G       C               D            C</div>And all that I believe might never really come true</div><div class="line-pair"><div class="chord-line">            G         C                  D           C</div>But in my mind I'm having a pretty good time with you</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">       G         C     D</div>Oh in five years time</div><div class="line-pair"><div class="chord-line">             C</div>I might not know you</div><div class="line-pair"><div class="chord-line">G          C      D</div>Five years time</div><div class="line-pair"><div class="chord-line">               C</div>We might not speak</div><div class="line-pair"><div class="chord-line">      G          C      D</div>Oh in five years time</div><div class="line-pair"><div class="chord-line">             C</div>We might not get along</div><div class="line-pair"><div class="chord-line">   G          C       D</div>In five years time</div><div class="line-pair"><div class="chord-line">               C          G     C  D  C</div>You might just prove me wrong</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">               G         C      D</div>Oh there'll be love love love</div><div class="line-pair"><div class="chord-line">         C</div>Wherever you go</div><div class="lyric-line">There'll be love love love</div><div class="lyric-line">Wherever you go</div><div class="lyric-line">There'll be love love love</div><div class="lyric-line">Wherever you go</div><div class="lyric-line">There'll be love love love</div><div class="lyric-line">Wherever you go</div><div class="lyric-line">There'll be love love love</div><div class="lyric-line">Wherever you go</div><div class="lyric-line">There'll be love love love</div><div class="lyric-line">Wherever you go</div><div class="lyric-line">There'll be love love love</div><div class="lyric-line">Wherever you go there'll be love</div></div>
-</div>
-</article>
-<article class="song" id="song-7_years_lukas_graham" data-title="7 Years" data-autor="Lukas Graham" style="--chars: 63">
-<h3>6. 7 Years - Lukas Graham</h3>
-<p class="song-meta"><span class="meta-item">Autor: Lukas Graham</span><a class="meta-item" href="https://open.spotify.com/track/5kqIPrATaCc2LqxVWzQGbk" target="_blank" rel="noopener">Spotify link</a></p>
-<div class="controls">
-  <button data-action="toggle-chords">Chords</button>
-  <div class="stepper">
-    <button data-action="transpose-down" aria-label="Transpose down">−</button>
-    <button class="transpose-value" data-action="transpose-reset" aria-label="Reset transpose">0</button>
-    <button data-action="transpose-up" aria-label="Transpose up">+</button>
-  </div>
-  <button data-action="toggle-columns">Columns</button>
-  <button data-action="session-toggle" aria-pressed="false">+ Session</button>
-</div>
-<div class="lyrics">
-<div class="verse"><div class="lyric-line">Intro:</div><div class="chord-line">Gm Gm Eb  F Bb Bb</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">Gm7                    Bb                Eb</div>Once I was seven years old, my mama told me</div><div class="line-pair"><div class="chord-line">                                           F</div>Go make yourself some friends or you'll be lonely</div><div class="line-pair"><div class="chord-line">Gm7                    Bb     Eb</div>Once I was seven years old</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">Gm                        Bb</div>   It was a big, big world, but we thought we were bigger</div><div class="line-pair"><div class="chord-line">Eb                                           F</div>   Pushing each other to the limits, we were learning quicker</div><div class="line-pair"><div class="chord-line">Gm                   Bb</div>   By eleven smoking herb and drinking burning liquor</div><div class="line-pair"><div class="chord-line">Eb                                        F</div>   Never rich so we were out to make that steady figure</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">Gm7                       Bb            Eb</div>Once I was eleven years old, daddy told me,</div><div class="line-pair"><div class="chord-line">                                    F</div>Go get yourself a wife or you'll be lonely</div><div class="line-pair"><div class="chord-line">Gm7                     Bb         Eb</div>Once I was eleven years old</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">Gm                  Bb</div>  I always had that dream like my daddy before me</div><div class="line-pair"><div class="chord-line">Eb                                      F               Gm</div>  So I started writing songs, I started writing stories</div><div class="line-pair"><div class="chord-line">Gm                        Bb</div>Something about that glory, just always seemed to bore me</div><div class="line-pair"><div class="chord-line">       Eb                                 F           Gm</div>'Cause only those I really love will ever really know me</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">Gm7                         Bb               Eb</div>Once I was twenty years old, my story got told</div><div class="line-pair"><div class="chord-line">Eb                                    F     Gm</div>Before the morning sun, when life was lonely</div><div class="line-pair"><div class="chord-line">Gm7                     Bb          Eb</div>Once I was twenty years old</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">Gm              Bb</div>  I only see my goals, I don't believe in failure</div><div class="line-pair"><div class="chord-line">Eb                                           F            Gm</div>  'Cause I know the smallest voices, they can make it major</div><div class="line-pair"><div class="chord-line">Gm                   Bb</div>I got my boys with me, at least those in favor</div><div class="line-pair"><div class="chord-line">    Eb                                          F            Gm</div>And if we don't see before I leave, I hope I'll see you later</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">Gm7                 Bb                Eb</div>Once I was 20 years old, my story got told</div><div class="line-pair"><div class="chord-line">Eb                                     F         Gm</div>I was writing about everything I saw before me</div><div class="line-pair"><div class="chord-line">Gm7                 Bb     Eb</div>Once I was 20 years old</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">Gm7                    Bb                       Eb</div>Soon we'll be 30 years old, our songs have been sold</div><div class="line-pair"><div class="chord-line">                                                F      Gm</div>We've traveled around the world and we're still roaming</div><div class="line-pair"><div class="chord-line">Gm7                    Bb       Eb       Bb</div>Soon we'll be 30 years old</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">    Gm              F   Bb</div>I'm still learning about life,</div><div class="line-pair"><div class="chord-line">Bb</div>my woman brought children for me</div><div class="line-pair"><div class="chord-line">Eb</div>So I can sing them all my songs</div><div class="line-pair"><div class="chord-line">          F                Gm</div>and I can tell them stories</div><div class="line-pair"><div class="chord-line">Gm</div>Most of my boys are with me,</div><div class="line-pair"><div class="chord-line">Bb</div>some are still out seeking glory</div><div class="line-pair"><div class="chord-line">    Eb</div>And some I had to leave behind,</div><div class="line-pair"><div class="chord-line">           F               Gm</div>my brother I'm still sorry</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">Gm7                   Bb</div>Soon I'll be 60 years old, my daddy got 61</div><div class="line-pair"><div class="chord-line">Eb                                         F         Gm7</div>Remember life and then your life becomes a better one</div><div class="line-pair"><div class="chord-line">Gm7                   Bb</div>I made a man so happy when I wrote a letter once</div><div class="line-pair"><div class="chord-line">Eb</div>I hope my children come and visit, once or twice a month</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">Gm7                      Bb                             Eb</div>Soon I'll be sixty years old, will I think the world is cold</div><div class="line-pair"><div class="chord-line">                                         F      Gm7</div>Or will I have a lot of children who can warm me</div><div class="line-pair"><div class="chord-line">Gm7                Bb</div>Soon I'll be 60 years old</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">Gm7                      Bb                             Eb</div>Soon I'll be sixty years old, will I think the world is cold</div><div class="line-pair"><div class="chord-line">                                         F      Gm7</div>Or will I have a lot of children who can warm me</div><div class="line-pair"><div class="chord-line">Gm7                Bb</div>Soon I'll be 60 years old</div></div>
-<div class="verse"><div class="line-pair"><div class="chord-line">Gm               Bb                        Eb</div>Once I was seven years old, my mama told me</div><div class="line-pair"><div class="chord-line">                                           F     Gm</div>Go make yourself some friends or you'll be lonely</div><div class="line-pair"><div class="chord-line">                      Bb      Eb    Bb</div>Once I was seven years old</div><div class="line-pair"><div class="chord-line">Gm              F         Bb</div>Once I was seven years old</div></div>
+<div class="verse"><div class="lyric-line">Intro:</div><div class="chord-line">Em Em7 C G</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">Em                     Em7</div>Simona, you're getting older</div><div class="line-pair"><div class="chord-line">               C</div>your journey's been</div><div class="line-pair"><div class="chord-line">               G    D</div>etched on your skin</div><div class="line-pair"><div class="chord-line">Em                 Em7</div>Simona, wish I had known that</div><div class="line-pair"><div class="chord-line">              C</div>what seems so strong</div><div class="line-pair"><div class="chord-line">             D  B7</div>has been and gone</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">   Em</div>I would call you up every Saturday night</div><div class="line-pair"><div class="chord-line">         Em7</div>And we'd both stay out 'til the morning light</div><div class="line-pair"><div class="chord-line">         C                G     D</div>And we sang, "Here we go again"</div><div class="line-pair"><div class="chord-line">            Em</div>And though time goes by</div></div>
+<div class="verse"><div class="lyric-line">I will always be</div><div class="line-pair"><div class="chord-line">     Em7</div>In a club with you</div><div class="line-pair"><div class="chord-line">      C</div>In 1973</div><div class="line-pair"><div class="chord-line">                     G     D</div>Singing "Here we go again"</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">  Em</div>Simona</div><div class="line-pair"><div class="chord-line">           Em7</div>Wish I was sober</div><div class="line-pair"><div class="chord-line">                  C</div>So I could see clearly now</div><div class="line-pair"><div class="chord-line">             G   D</div>The rain has gone</div><div class="line-pair"><div class="chord-line">Em</div>Simona</div><div class="line-pair"><div class="chord-line">             Em7</div>I guess it's over</div><div class="line-pair"><div class="chord-line">            C</div>My memory plays our tune</div><div class="line-pair"><div class="chord-line">             D   B7</div>The same old song</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">   Em</div>I would call you up every Saturday night</div><div class="line-pair"><div class="chord-line">         Em7</div>And we'd both stay out 'til the morning light</div><div class="line-pair"><div class="chord-line">         C                G     D</div>And we sang, "Here we go again"</div><div class="line-pair"><div class="chord-line">            Em</div>And though time goes by</div></div>
+<div class="verse"><div class="lyric-line">I will always be</div><div class="line-pair"><div class="chord-line">     Em7</div>In a club with you</div><div class="line-pair"><div class="chord-line">      C</div>In 1973</div><div class="line-pair"><div class="chord-line">                     G     D</div>Singing "Here we go again"</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">C    Am   G    D</div>Ahhh ahhh ahhh ahhh</div><div class="line-pair"><div class="chord-line">C    Am   D    B7</div>Ahhh ahhh ahhh</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">   Em</div>I would call you up every Saturday night</div><div class="line-pair"><div class="chord-line">         Em7</div>And we'd both stay out 'til the morning light</div><div class="line-pair"><div class="chord-line">         C                G     D</div>And we sang, "Here we go again"</div><div class="line-pair"><div class="chord-line">            Em</div>And though time goes by</div></div>
+<div class="verse"><div class="lyric-line">I will always be</div><div class="line-pair"><div class="chord-line">     Em7</div>In a club with you</div><div class="line-pair"><div class="chord-line">      C</div>In 1973</div><div class="line-pair"><div class="chord-line">                     G     D</div>Singing "Here we go again"</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">   Em</div>I would call you up every Saturday night</div><div class="line-pair"><div class="chord-line">         Em7</div>And we'd both stay out 'til the morning light</div><div class="line-pair"><div class="chord-line">         C                G     D</div>And we sang, "Here we go again"</div><div class="line-pair"><div class="chord-line">            Em</div>And though time goes by</div></div>
+<div class="verse"><div class="lyric-line">I will always be</div><div class="line-pair"><div class="chord-line">     Em7</div>In a club with you</div><div class="line-pair"><div class="chord-line">      C</div>In 1973</div><div class="line-pair"><div class="chord-line">                     G     D</div>Singing "Here we go again"</div></div>
+<div class="verse"><div class="line-pair"><div class="chord-line">            Cmaj7</div>And though time goes by</div></div>
+<div class="verse"><div class="lyric-line">I will always be</div><div class="line-pair"><div class="chord-line">     D</div>In a club with you</div><div class="line-pair"><div class="chord-line">   Dsus4 D  G</div>In 19-   7- 3</div></div>
 </div>
 </article>
 <article class="song" id="song-a_hard_days_night_the_beatles" data-title="A Hard Day&#x27;s Night" data-autor="The Beatles" style="--chars: 86">
@@ -12637,35 +12760,35 @@ window.addEventListener("afterprint", () => {
 });
 </script>
 <script>
-// Keep what's on screen still while songs above it change height (Safari).
+// Keep what's on screen still while songs above it change height.
 //
 // Off-screen songs are skipped by the browser (content-visibility in
 // styles.css) and get their real height only when scrolled near, or when the
-// text size changes. Browsers' own scroll anchoring hides that, but Safari's
-// jumps a screen away, so there it is turned off and done here instead.
-// shortcut: engine check by navigator.vendor (every iPhone browser is WebKit);
-// drop this file once Safari's scroll anchoring handles skipped content.
+// text size changes. Browsers' own scroll anchoring should hide that, but
+// Safari's jumps a screen away, and Chromium's drifts about a screen on A+
+// among short songs with staffs (the liturgia fórmulas), so it is turned off
+// and done here instead.
 
-if (navigator.vendor.startsWith("Apple")) {
-    document.documentElement.style.overflowAnchor = "none";
-    const songHeights = new WeakMap();
+document.documentElement.style.overflowAnchor = "none";
+const songHeights = new WeakMap();
 
-    const songResizes = new ResizeObserver((entries) => {
-        let shift = 0;
-        for (const entry of entries) {
-            const height = entry.borderBoxSize[0].blockSize;
-            const old = songHeights.get(entry.target);
-            songHeights.set(entry.target, height);
-            if (old === undefined) continue;
-            // Songs that ended above the middle of the screen push the rest down.
-            const top = entry.target.getBoundingClientRect().top;
-            if (top < 0 && top + old < window.innerHeight / 2) shift += height - old;
-        }
-        if (shift) window.scrollBy(0, shift);
-    });
+const songResizes = new ResizeObserver((entries) => {
+    let shift = 0;
+    let moved = 0; // how far earlier songs of this batch moved this one (entries are in page order)
+    for (const entry of entries) {
+        const height = entry.borderBoxSize[0].blockSize;
+        const old = songHeights.get(entry.target);
+        songHeights.set(entry.target, height);
+        if (old === undefined) continue;
+        // Songs that ended above the middle of the screen (before resizing) push the rest down.
+        const top = entry.target.getBoundingClientRect().top - moved;
+        if (top < 0 && top + old < window.innerHeight / 2) shift += height - old;
+        moved += height - old;
+    }
+    if (shift) window.scrollBy(0, shift);
+});
 
-    document.querySelectorAll(".song").forEach((song) => songResizes.observe(song));
-}
+document.querySelectorAll(".song").forEach((song) => songResizes.observe(song));
 </script>
 <script>
 // Search songs by number, title, author or lyrics. Wires up every `.search` box:
@@ -12692,7 +12815,9 @@ function searchText(text) {
 const searchIndex = [...document.querySelectorAll(".song")].map((song) => {
     // Lyric lines only: chord lines would add noise ("am", "do"...). A lyric
     // under a chord line is its .line-pair's own text.
+    // A psalm's fórmula (formula.js) is a copy of another song: not the psalm's words.
     const lines = [...song.querySelectorAll(".lyric-line, .line-pair")]
+        .filter((line) => !line.closest(".psalm-formula"))
         .map((line) => (line.matches(".lyric-line")
             ? line.textContent
             : [...line.childNodes].filter((node) => node.nodeType === Node.TEXT_NODE).map((node) => node.data).join("")
@@ -12958,13 +13083,20 @@ let session = (() => {
 
 const songTitle = (id) => document.getElementById(id).dataset.title;
 
+// A psalm's chosen fórmula (formula.js): shown with it and kept in shared links.
+const sessionFormula = (id) => {
+    const formula = songState.all[id]?.formula;
+    return formula && document.getElementById(formula) ? formula : null;
+};
+const sessionLabel = (id) => songTitle(id) + (sessionFormula(id) ? ` · ${songTitle(sessionFormula(id))}` : "");
+
 function renderSession() {
     const list = document.querySelector(".session-list");
     list.replaceChildren(...session.map((id) => {
         const item = document.createElement("li");
         item.dataset.song = id;
 
-        const link = Object.assign(document.createElement("a"), { href: "#" + id, textContent: songTitle(id) });
+        const link = Object.assign(document.createElement("a"), { href: "#" + id, textContent: sessionLabel(id) });
 
         const remove = Object.assign(document.createElement("button"), { textContent: "✕" });
         Object.assign(remove.dataset, { action: "session-remove", song: id });
@@ -13027,10 +13159,11 @@ onAction("session-clear", () => {
 });
 
 // Share: a link with ?session=id1,id2 that replaces the opener's session
-// (only the session; their settings and song changes stay).
+// (only the session and the fórmulas of its psalms, id~fórmula; their other
+// settings and song changes stay).
 onAction("session-share", () => {
     const url = new URL(location.pathname, location.href);
-    url.searchParams.set("session", session.join(","));
+    url.searchParams.set("session", session.map((id) => (sessionFormula(id) ? `${id}~${sessionFormula(id)}` : id)).join(","));
     const text = `Someone shared a song session with you (${document.title})`;
     const copy = () => (navigator.clipboard?.writeText(`${text}\n${url.href}`) ?? Promise.reject())
         .then(() => alert("Link copied"), () => prompt("Copy this link:", url.href));
@@ -13043,7 +13176,12 @@ onAction("session-share", () => {
 
 const shared = new URLSearchParams(location.search).get("session");
 if (shared !== null) {
-    session = [...new Set(shared.split(","))].filter((id) => document.getElementById(id)?.classList.contains("song"));
+    const entries = shared.split(",").map((entry) => entry.split("~"));
+    entries.forEach(([id, formula]) => {
+        const psalm = document.getElementById(id);
+        if (formula && psalm?.querySelector(".formula-pick") && typeof setFormula === "function") setFormula(psalm, formula);
+    });
+    session = [...new Set(entries.map(([id]) => id))].filter((id) => document.getElementById(id)?.classList.contains("song"));
     prefs.set(SESSION_KEY, JSON.stringify(session));
     try {
         history.replaceState(null, "", location.pathname + (session.length ? "#" + session[0] : ""));
@@ -13206,6 +13344,8 @@ function renderChords(song) {
         widest = Math.max(widest, line.textContent.length);
     });
     song.style.setProperty("--chars", widest);
+    // melody.js is only in books with melodies, so name refreshMelody only when there is one.
+    song.querySelectorAll(".melody").forEach((melody) => refreshMelody(melody));
 }
 
 function setTranspose(song, shift) {
