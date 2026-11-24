@@ -1,5 +1,6 @@
 ---
 title: Bridge Over Troubled Water
+key: C
 autor: Simon & Garfunkel
 capo: "3"
 link: "https://open.spotify.com/track/5LFtkeNjLpZAey3Arj3h4M"

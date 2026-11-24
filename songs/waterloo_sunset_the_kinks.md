@@ -1,5 +1,6 @@
 ---
 title: Waterloo Sunset
+key: E
 autor: The Kinks
 link: "https://open.spotify.com/track/3G0EALIIp5DAeIERxXBHmo"
 added: "2015-12-11"

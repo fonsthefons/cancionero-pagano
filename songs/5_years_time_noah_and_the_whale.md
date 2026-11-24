@@ -1,5 +1,6 @@
 ---
 title: 5 Years Time
+key: G
 autor: Noah and the Whale
 capo: "5"
 link: "https://open.spotify.com/track/12je8giC2S9smUHJ81tpiL"

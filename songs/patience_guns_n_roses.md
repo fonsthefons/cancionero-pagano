@@ -1,5 +1,6 @@
 ---
 title: Patience
+key: D
 autor: Guns N' Roses
 link: "https://open.spotify.com/track/2uKcU4FPX5eOjmd6RWb9OF"
 added: "2015-12-11"

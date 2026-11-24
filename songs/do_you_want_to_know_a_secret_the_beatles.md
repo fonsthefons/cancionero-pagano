@@ -1,5 +1,6 @@
 ---
 title: Do You Want To Know A Secret
+key: E
 autor: The Beatles
 link: "https://open.spotify.com/track/2CKlrUNbRjSjP577Gcqbha"
 added: "2020-08-03"

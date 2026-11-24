@@ -1,5 +1,6 @@
 ---
 title: Twist And Shout
+key: D
 autor: The Beatles
 link: "https://open.spotify.com/track/43cSxeCtxAN4BlNGLw2q3z"
 added: "2016-06-10"
@@ -78,7 +79,7 @@ Well shake it, shake it, shake it baby, now  (shake it up baby)
 Well shake it, shake it, shake it baby, now  (shake it up baby)
                                   D           G           A
 Well shake it, shake it, shake it baby, now  (shake it up baby)
-A              A7     A5 A5 A#5 B5 C5 C#5 D5      D9
+A              A7     A5 A5 Bb5 B5 C5 C#5 D5      D9
 Aah, aah, aah, aah                             x-5-4-5-5(5)
 
 Basic patterns for rhythm guitar

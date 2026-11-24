@@ -1,5 +1,6 @@
 ---
 title: More Than Words
+key: G
 autor: Extreme
 link: "https://open.spotify.com/track/1gVgkQFOKa8Wc1HYsJtPdH"
 added: "2015-12-11"

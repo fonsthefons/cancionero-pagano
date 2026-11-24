@@ -1,5 +1,6 @@
 ---
 title: Bad Moon Rising
+key: D
 autor: Creedence Clearwater Revival
 link: "https://open.spotify.com/track/20OFwXhEXf12DzwXmaV7fj"
 added: "2015-06-21"

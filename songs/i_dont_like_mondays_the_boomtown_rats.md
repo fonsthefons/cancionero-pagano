@@ -1,5 +1,6 @@
 ---
 title: I Don't Like Mondays
+key: G
 autor: The Boomtown Rats
 capo: "4"
 link: "https://open.spotify.com/track/7JFoeg0arawADjGcz9gBnq"

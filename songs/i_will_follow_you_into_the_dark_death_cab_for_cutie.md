@@ -1,5 +1,6 @@
 ---
 title: I Will Follow You Into The Dark
+key: Dm
 autor: Death Cab for Cutie
 link: "https://open.spotify.com/track/3kZC0ZmFWrEHdUCmUqlvgZ"
 added: "2015-06-26"

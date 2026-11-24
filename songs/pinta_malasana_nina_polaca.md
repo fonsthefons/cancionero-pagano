@@ -1,5 +1,6 @@
 ---
 title: Pinta Malasaña
+key: D
 autor: Niña Polaca
 capo: "4"
 link: "https://open.spotify.com/track/44d0yIASWLFK93zFrUsuYF"

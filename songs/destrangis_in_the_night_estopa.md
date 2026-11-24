@@ -1,5 +1,6 @@
 ---
 title: Destrangis In The Night
+key: Bm
 autor: Estopa
 link: "https://open.spotify.com/track/69DpfNk26mtxn2YXeFOIYg"
 added: "2015-12-11"

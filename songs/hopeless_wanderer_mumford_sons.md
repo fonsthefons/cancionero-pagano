@@ -1,5 +1,6 @@
 ---
 title: Hopeless Wanderer
+key: G
 autor: Mumford & Sons
 capo: "3"
 link: "https://open.spotify.com/track/7rME25EmgXGVPQqKtU4CIK"

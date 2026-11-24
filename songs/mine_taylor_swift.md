@@ -1,5 +1,6 @@
 ---
 title: Mine
+key: G
 autor: Taylor Swift
 link: "https://open.spotify.com/track/0dBW6ZsW8skfvoRfgeerBF"
 added: "2017-08-27"

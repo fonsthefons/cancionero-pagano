@@ -1,5 +1,6 @@
 ---
 title: Hurricane
+key: Am
 autor: Bob Dylan
 link: "https://open.spotify.com/track/1lqMLr9Wj7SM2F9AikGcxN"
 added: "2015-06-23"

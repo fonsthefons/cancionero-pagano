@@ -1,5 +1,6 @@
 ---
 title: No Woman No Cry
+key: C
 autor: Bob Marley
 link: "https://open.spotify.com/track/2ftXrFRLlI9ULnwzde2hJK"
 added: "2015-12-11"

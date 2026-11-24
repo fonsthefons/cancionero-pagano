@@ -1,5 +1,6 @@
 ---
 title: Tears And Rain
+key: G
 autor: James Blunt
 link: "https://open.spotify.com/track/6fzC0de8y6qO5RSfjoEQ5e"
 added: "2016-08-07"

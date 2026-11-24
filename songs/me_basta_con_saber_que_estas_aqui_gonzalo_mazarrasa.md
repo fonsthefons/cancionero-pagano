@@ -1,5 +1,6 @@
 ---
 title: Me Basta Con Saber Que Estás Aquí
+key: G
 autor: Gonzalo Mazarrasa
 link: "https://www.youtube.com/watch?v=KXBJFV4bFfI"
 added: "2020-03-14"

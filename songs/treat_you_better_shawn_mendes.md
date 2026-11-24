@@ -1,5 +1,6 @@
 ---
 title: Treat You Better
+key: Am
 autor: Shawn Mendes
 capo: "1"
 link: "https://open.spotify.com/track/53B2XmmjJ9rriW1qciMBeX"

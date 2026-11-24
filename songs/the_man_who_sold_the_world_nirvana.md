@@ -1,5 +1,6 @@
 ---
 title: The Man Who Sold The World
+key: F
 autor: Nirvana
 link: "https://open.spotify.com/track/48psxWnIVYCPUZJKiuDiEf"
 added: "2016-10-22"
@@ -27,11 +28,11 @@ I thought you died alone, a long long time ago
 
             F
 Oh no, not me
-   C#             F
+   Db             F
 We never lost control
         C       F
 You're face to face
-         C#                     A
+         Db                     A
 With the man who sold the world
 
 A   Dm   F   Dm
@@ -47,22 +48,22 @@ I must have died alone, a long long time ago
 
                 F
 Who knows, not me
-  C#             F
+  Db             F
 I never lost control
         C       F
 You're face to face
-         C#                     A
+         Db                     A
 With the man who sold the world
 
 A   Dm
 
     C           F
 Who knows, not me
-   C#             F
+   Db             F
 We never lost control
         C       F
 You're face to face
-         C#                     A
+         Db                     A
 With the man who sold the world
 
 A   Dm   F   Dm   x3

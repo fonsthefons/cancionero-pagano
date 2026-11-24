@@ -1,5 +1,6 @@
 ---
 title: Girl From The North Country
+key: G
 autor: Bob Dylan
 link: "https://open.spotify.com/track/739sLmfUkVFoyPtb0C3263"
 added: "2015-12-11"

@@ -1,5 +1,6 @@
 ---
 title: You Needed Me
+key: G
 autor: Anne Murray
 capo: "2"
 link: "https://open.spotify.com/track/5d4E1hgkLyb7sXr5J3InnM"

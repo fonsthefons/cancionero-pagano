@@ -1,5 +1,6 @@
 ---
 title: A Million Dreams
+key: G
 autor: The Greatest Showman
 link: "https://open.spotify.com/track/5j79HZ5qz7tANus0Xa2Tjz"
 added: "2019-07-18"

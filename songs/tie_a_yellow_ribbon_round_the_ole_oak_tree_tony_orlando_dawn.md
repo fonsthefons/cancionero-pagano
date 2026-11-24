@@ -1,5 +1,6 @@
 ---
 title: Tie A Yellow Ribbon Round The Ole Oak Tree
+key: C
 autor: Tony Orlando & Dawn
 capo: "5"
 link: "https://open.spotify.com/track/2EnzSQ4CcxxpBrTGvS85Wz"

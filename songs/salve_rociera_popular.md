@@ -1,5 +1,6 @@
 ---
 title: Salve Rociera
+key: A
 autor: Popular
 link: "https://open.spotify.com/track/1w12SYP6xt4P2FIyuC5CV8"
 added: "2026-05-14"

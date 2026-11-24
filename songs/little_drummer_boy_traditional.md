@@ -1,5 +1,6 @@
 ---
 title: Little Drummer Boy
+key: G
 autor: Traditional
 capo: "1"
 link: "https://open.spotify.com/track/6MtecozqUbilB5qbVARrUH"

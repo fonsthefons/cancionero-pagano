@@ -1,5 +1,6 @@
 ---
 title: Tears In Heaven
+key: A
 autor: Eric Clapton
 link: "https://open.spotify.com/track/1kgdslQYmeTR4thk9whoRw"
 added: "2015-12-11"

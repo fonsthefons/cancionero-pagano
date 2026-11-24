@@ -1,5 +1,6 @@
 ---
 title: Ya Nadie Te Quiere
+key: A
 autor: Los Delinqüentes
 link: "https://open.spotify.com/track/4yYUxeAtcTrKKCDnkUlr5N"
 added: "2017-09-11"

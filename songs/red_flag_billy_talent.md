@@ -1,5 +1,6 @@
 ---
 title: Red Flag
+key: Am
 autor: Billy Talent
 link: "https://open.spotify.com/track/2RZWdE8kYPlCAcRUYDeuLC"
 added: "2015-05-06"

@@ -1,5 +1,6 @@
 ---
 title: Tea And Sympathy
+key: G
 autor: Janis Ian
 capo: "2"
 link: "https://open.spotify.com/track/2NZ22960IQzkbnhq3m71Jp"

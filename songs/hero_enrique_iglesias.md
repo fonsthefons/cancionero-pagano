@@ -1,5 +1,6 @@
 ---
 title: Hero
+key: G
 autor: Enrique Iglesias
 link: "https://open.spotify.com/track/24Gxm7Eh7tO83E26LG0CsY"
 added: "2016-07-15"

@@ -1,5 +1,6 @@
 ---
 title: The Long And Winding Road
+key: Bm
 autor: The Beatles
 capo: "1"
 link: "https://open.spotify.com/track/1cDfP9QnYXCIcECWD4k1G2"

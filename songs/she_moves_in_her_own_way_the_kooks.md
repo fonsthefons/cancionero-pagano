@@ -1,5 +1,6 @@
 ---
 title: She Moves In Her Own Way
+key: G
 autor: The Kooks
 link: "https://open.spotify.com/track/2SGBEDwsOAOAHrrdAd304i"
 added: "2017-09-13"

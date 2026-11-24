@@ -1,5 +1,6 @@
 ---
 title: 21 Guns
+key: Dm
 autor: Green Day
 link: "https://open.spotify.com/track/64yrDBpcdwEdNY9loyEGbX"
 added: "2016-10-22"

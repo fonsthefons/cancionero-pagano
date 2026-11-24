@@ -1,5 +1,6 @@
 ---
 title: Mirando Al Cielo
+key: C
 autor: Huecco
 capo: "4"
 link: "https://open.spotify.com/track/0yjUKvDF7VwgHp9SUJTZdT"
@@ -11,7 +12,7 @@ song_tags:
 Intro:
 C  G  Am  Em  F  C  F  G
 
-C                        G                  (G#)
+C                        G                  (Ab)
 Los mejores años de nuestras vidas.
       Am                   E
 Las mejores lunas sabor a miel.
@@ -19,7 +20,7 @@ Las mejores lunas sabor a miel.
 Tus manos traviesas nunca se olvidan
 G                            F         G
 Tu boca impaciente sobre mi piel
-C                              G               (G#)
+C                              G               (Ab)
 Siento dentro que se acaban mis días
    Am                          E
 El siguiente héroe caído puedo ser

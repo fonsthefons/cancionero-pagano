@@ -1,5 +1,6 @@
 ---
 title: Dust In The Wind
+key: C
 autor: Kansas
 link: "https://open.spotify.com/track/6zeE5tKyr8Nu882DQhhSQI"
 added: "2016-08-30"

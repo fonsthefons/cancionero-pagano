@@ -1,5 +1,6 @@
 ---
 title: Sólo Le Pido A Dios
+key: G
 autor: Mercedes Sosa
 capo: "4"
 link: "https://open.spotify.com/track/56xjJDGzMyGWf5qHUeA2GK"

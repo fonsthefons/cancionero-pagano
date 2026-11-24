@@ -1,5 +1,6 @@
 ---
 title: Tú El Único Rey
+key: G
 autor: TUYO
 capo: "3"
 link: "https://open.spotify.com/track/1KKzqz1pmM516c1xAK84pd"

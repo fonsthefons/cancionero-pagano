@@ -1,5 +1,6 @@
 ---
 title: (I Can't Get No) Satisfaction
+key: E
 autor: The Rolling Stones
 link: "https://open.spotify.com/track/3NzTaYknes9UwH7CIb7CIS"
 added: "2016-07-10"

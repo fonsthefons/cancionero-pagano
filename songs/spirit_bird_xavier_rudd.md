@@ -1,5 +1,6 @@
 ---
 title: Spirit Bird
+key: C
 autor: Xavier Rudd
 link: "https://open.spotify.com/track/70zZclGWOjOVv9VRJ7RCyq"
 added: "2019-10-23"

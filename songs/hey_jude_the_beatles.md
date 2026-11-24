@@ -1,5 +1,6 @@
 ---
 title: Hey Jude
+key: F
 autor: The Beatles
 link: "https://open.spotify.com/track/1eT2CjXwFXNx6oY5ydvzKU"
 added: "2017-08-10"

@@ -1,5 +1,6 @@
 ---
 title: Somewhere Only We Know
+key: G
 autor: Lily Allen
 capo: "3"
 link: "https://open.spotify.com/track/1mvfvDZOybiEgS1ecJxt9W"

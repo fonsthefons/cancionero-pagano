@@ -1,5 +1,6 @@
 ---
 title: One Blood
+key: C
 autor: Terence Jay
 link: "https://www.youtube.com/watch?v=-c2cDhC_iAk"
 added: "2016-06-08"

@@ -1,5 +1,6 @@
 ---
 title: Flagship
+key: G
 autor: Jason Isbell
 link: "https://open.spotify.com/track/5PR9qWvwblnlOfX6Jlvne8"
 added: "2021-08-08"

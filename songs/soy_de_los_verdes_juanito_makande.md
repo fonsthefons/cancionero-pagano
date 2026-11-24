@@ -1,5 +1,6 @@
 ---
 title: Soy De Los Verdes
+key: Bm
 autor: Juanito Makandé
 link: "https://open.spotify.com/track/4wjdqI7euTMCrAaFIfY7Qu"
 added: "2018-03-09"

@@ -1,5 +1,6 @@
 ---
 title: Skinny Love
+key: Am
 autor: Bon Iver
 link: "https://open.spotify.com/track/1NyFRrFiJAJIaR6icj1goI"
 added: "2016-07-10"

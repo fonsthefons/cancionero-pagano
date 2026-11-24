@@ -1,5 +1,6 @@
 ---
 title: Hey Soul Sister
+key: C
 autor: Train
 capo: "4"
 link: "https://open.spotify.com/track/0KpfYajJVVGgQ32Dby7e9i"

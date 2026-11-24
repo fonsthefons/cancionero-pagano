@@ -1,5 +1,6 @@
 ---
 title: Rosa De Mi Pañuelo
+key: Am
 autor: Migue Benítez
 capo: "2"
 link: "https://open.spotify.com/track/05Z4Jxnj29sFa6iTAnA26w"

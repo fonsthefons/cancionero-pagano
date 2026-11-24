@@ -1,5 +1,6 @@
 ---
 title: Be Mine
+key: E
 autor: R.E.M.
 link: "https://open.spotify.com/track/1JPNX3DyKiHasaV6LVnI3j"
 added: "2020-08-13"

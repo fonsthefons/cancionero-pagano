@@ -1,5 +1,6 @@
 ---
 title: One Headlight
+key: Bm
 autor: The Wallflowers
 link: "https://open.spotify.com/track/0z1b34WikhOH9ZxU8QDWcv"
 added: "2015-02-09"

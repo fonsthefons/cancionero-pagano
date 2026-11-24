@@ -1,5 +1,6 @@
 ---
 title: And I Love You So
+key: A
 autor: Don McLean
 link: "https://open.spotify.com/track/4bgfMOKbX5q7XHRECffBl5"
 added: "2015-06-20"

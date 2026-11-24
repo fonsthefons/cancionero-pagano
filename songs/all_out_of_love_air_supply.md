@@ -1,5 +1,6 @@
 ---
 title: All Out Of Love
+key: C
 autor: Air Supply
 link: "https://open.spotify.com/track/2lmcH6prYo3BlR8LfRUJc3"
 added: "2017-10-27"

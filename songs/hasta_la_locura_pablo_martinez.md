@@ -1,5 +1,6 @@
 ---
 title: Hasta La Locura
+key: Ab
 autor: Pablo Martínez
 link: "https://open.spotify.com/track/4ovCyuMTQ7EwXeXaryCxdZ"
 added: "2025-02-16"
@@ -8,42 +9,42 @@ song_tags:
 ---
 
 Intro:
-G# - C# - G# - C#
+Ab - Db - Ab - Db
 
-G#                       C#
+Ab                       Db
 Me puede faltar todo en la vida,
-D#                         G#
+Eb                         Ab
    Me puede faltar hasta la vida;
 Cm7                         Fm
     Pero nunca quiero que me falte,
-             C#   D#       G# (C#-G#)
+             Db   Eb       Ab (Db-Ab)
 El deseo de amarte hasta el final...
 
-G#7      C#           D#
+Ab7      Db           Eb
 Hasta la locura te amo Señor,
-             G#      D#/SOL     Fm
-          C#            D#    G# - C#
+             Ab      Eb/SOL     Fm
+          Db            Eb    Ab - Db
 De que te amo, de que te amo, Señor..
 
-G#                     C#
+Ab                     Db
 Quiero amarte hasta el extremo,
-D#                       G#
+Eb                       Ab
  Sin reservas darme por entero,
 Cm7                      Fm
   Como los que se han enamorado,
-               C#   D#       G# (C#-G#)
+               Db   Eb       Ab (Db-Ab)
 Yo te canto mi amado hasta el final...
 
-G#7      C#           D#
+Ab7      Db           Eb
 Hasta la locura te amo Señor,
-             G#      D#/SOL     Fm
-          C#            D#    G#  C#
+             Ab      Eb/SOL     Fm
+          Db            Eb    Ab  Db
 De que te amo, de que te amo, Señor..
 
-G#7      C#           D#
+Ab7      Db           Eb
 Hasta la locura te amo Señor,
-             G#      D#/SOL     Fm
-          C#            D#    G#
+             Ab      Eb/SOL     Fm
+          Db            Eb    Ab
 De que te amo, de que te amo, Señor..
 
-C# - G# - C# - G#
+Db - Ab - Db - Ab

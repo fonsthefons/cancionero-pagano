@@ -1,5 +1,6 @@
 ---
 title: Free To Decide
+key: G
 autor: The Cranberries
 link: "https://open.spotify.com/track/42e1QfTyPYWuoddr0ghc0i"
 added: "2021-05-31"

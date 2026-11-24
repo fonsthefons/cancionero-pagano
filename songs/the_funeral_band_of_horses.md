@@ -1,5 +1,6 @@
 ---
 title: The Funeral
+key: C
 autor: Band of Horses
 capo: "3"
 link: "https://open.spotify.com/track/5lRzWDEe7UuedU2QPsFg0K"

@@ -1,5 +1,6 @@
 ---
 title: Surfin' USA
+key: C
 autor: The Beach Boys
 capo: "3"
 link: "https://open.spotify.com/track/6KH5cOzmX7R929vIx88FR9"

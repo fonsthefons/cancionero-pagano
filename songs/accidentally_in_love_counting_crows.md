@@ -1,5 +1,6 @@
 ---
 title: Accidentally In Love
+key: G
 autor: Counting Crows
 link: "https://open.spotify.com/track/4ccM2xBxicGigjLqt6A0YY"
 added: "2017-10-29"

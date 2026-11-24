@@ -1,5 +1,6 @@
 ---
 title: Grace Kelly
+key: G
 autor: Mika
 link: "https://open.spotify.com/track/7dzUZec5MnWMyQnk5klnKR"
 added: "2015-03-20"

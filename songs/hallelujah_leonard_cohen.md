@@ -1,5 +1,6 @@
 ---
 title: Hallelujah
+key: G
 autor: Leonard Cohen
 capo: "5"
 link: "https://open.spotify.com/track/6s1mt6e0n8G7jcNhcxXKzq"

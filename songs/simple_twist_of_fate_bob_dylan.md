@@ -1,5 +1,6 @@
 ---
 title: Simple Twist Of Fate
+key: C
 autor: Bob Dylan
 capo: "4"
 link: "https://open.spotify.com/track/3wAX3qn53iQUFE84hpfeen"

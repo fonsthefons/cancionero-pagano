@@ -1,5 +1,6 @@
 ---
 title: Alfileres De Colores
+key: Am
 autor: Diego Carrasco
 link: "https://open.spotify.com/track/3R2YhpQlFn4lw3Zqgq66dH"
 added: "2020-10-06"

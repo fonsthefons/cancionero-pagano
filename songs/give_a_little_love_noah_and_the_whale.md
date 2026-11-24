@@ -1,5 +1,6 @@
 ---
 title: Give A Little Love
+key: C
 autor: Noah and the Whale
 capo: "1"
 link: "https://open.spotify.com/track/50IpkltW01zmwxGwYZoPcj"

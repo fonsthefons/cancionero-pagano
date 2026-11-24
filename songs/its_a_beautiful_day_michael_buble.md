@@ -1,5 +1,6 @@
 ---
 title: It's A Beautiful Day
+key: C
 autor: Michael Bublé
 capo: "1"
 link: "https://open.spotify.com/track/4s5qUlWj2aIvZXqEJ5xaiC"

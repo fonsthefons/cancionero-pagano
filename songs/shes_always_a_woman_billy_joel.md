@@ -1,5 +1,6 @@
 ---
 title: She's Always A Woman
+key: D
 autor: Billy Joel
 capo: "1"
 link: "https://open.spotify.com/track/5RgFlk1fcClZd0Y4SGYhqH"

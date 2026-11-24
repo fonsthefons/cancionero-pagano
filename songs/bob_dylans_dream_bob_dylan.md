@@ -1,5 +1,6 @@
 ---
 title: Bob Dylan's Dream
+key: E
 autor: Bob Dylan
 capo: "3"
 link: "https://open.spotify.com/track/4MNxOR2Fu4NqJ892UdYx0h"

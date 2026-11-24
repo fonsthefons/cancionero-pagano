@@ -1,5 +1,6 @@
 ---
 title: With God On Our Side
+key: C
 autor: Bob Dylan
 link: "https://open.spotify.com/track/5hBOEqqkcQaUgkRhh6EyX4"
 added: "2015-12-11"

@@ -1,5 +1,6 @@
 ---
 title: Seaside
+key: Dm
 autor: The Kooks
 capo: "1"
 link: "https://open.spotify.com/track/6ZygaqgtPkiahkiYJhYWhn"

@@ -1,5 +1,6 @@
 ---
 title: Niña Voladora
+key: F#m
 autor: Juanito Makandé
 link: "https://open.spotify.com/track/7kvcXyMPrnMNzOYcBbikvF"
 added: "2018-04-06"
@@ -16,7 +17,7 @@ Niña voladora
 por las alturas vuelas tu sola,
           C#m7            Bm7
 vuela tranquila que yo te espero,
-           E                 Bm9    Db9
+           E                 Bm9    C#9
 aquí en la tierra pa' darte gloria.
 
         F#m
@@ -25,7 +26,7 @@ Monillo loco…
 Cuando tu trepas yo me desboco,
             C#m7           Bm7
 y a mí me encanta cuando me bailas,
-        E              Bm9      Db9
+        E              Bm9      C#9
 y te desnudas poquito a poco.
 
 F#m    E
@@ -50,7 +51,7 @@ Bm7                C#m7
 Y en un cuartito los dos
                 Bm7
 veneno que tú tomaras,
-D9           Db9   Db9
+D9           C#9   C#9
 veneno tomaba yo.
 
          F#m
@@ -59,7 +60,7 @@ Niña voladora
 por las alturas vuelas tu sola,
           C#m7            Bm7
 vuela tranquila que yo te espero,
-           E                  Bm9    Db9
+           E                  Bm9    C#9
 aquí en la tierra pa' darte gloria.
 
           F#m
@@ -68,7 +69,7 @@ Por ti yo loco…
 Cuando tu trepas yo me desboco,
             C#m7           Bm7
 y a mí me encanta cuando me bailas,
-        E              Bm9      Db9
+        E              Bm9      C#9
 y te desnudas poquito a poco.
 
 Bm9 E Bm9 C#m7 Bm9 E Bm9 E x2
@@ -94,7 +95,7 @@ Bm7                C#m7
 Y en un cuartito los dos,
                 Bm7
 veneno que tú tomaras,
-D9           Db9   Db9
+D9           C#9   C#9
 veneno tomaba yo.
 
          F#m
@@ -103,7 +104,7 @@ Niña voladora
 por las alturas vuelas tu sola,
           C#m7            Bm7
 vuela tranquila que yo te espero,
-           E                  Bm9    Db9
+           E                  Bm9    C#9
 aquí en la tierra pa' darte gloria.
 
           F#m
@@ -112,5 +113,5 @@ Por ti yo loco…
 Cuando tu trepas yo me desboco,
             C#m7           Bm7
 y a mí me encanta cuando me bailas,
-        E              Bm9      Db9
+        E              Bm9      C#9
 y te desnudas poquito a poco. (x3)

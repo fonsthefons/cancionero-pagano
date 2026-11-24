@@ -1,5 +1,6 @@
 ---
 title: Guaranteed
+key: G
 autor: Eddie Vedder
 link: "https://open.spotify.com/track/4LGF2tDg3878bs0mQPByZ4"
 added: "2016-01-15"

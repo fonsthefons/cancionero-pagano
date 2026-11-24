@@ -1,5 +1,6 @@
 ---
 title: These Are The Words
+key: Em
 autor: James Blunt
 capo: "1"
 link: "https://open.spotify.com/track/0jc9vlikooqX0ccc7nNJ1n"

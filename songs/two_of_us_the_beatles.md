@@ -1,5 +1,6 @@
 ---
 title: Two Of Us
+key: G
 autor: The Beatles
 link: "https://open.spotify.com/track/57n1teNb2tkcfiYagPmUWr"
 added: "2020-04-30"

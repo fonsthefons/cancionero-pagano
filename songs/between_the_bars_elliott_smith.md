@@ -1,5 +1,6 @@
 ---
 title: Between The Bars
+key: Em
 autor: Elliott Smith
 capo: "3"
 link: "https://open.spotify.com/track/52Bg6oaos7twR7IUtEpqcE"

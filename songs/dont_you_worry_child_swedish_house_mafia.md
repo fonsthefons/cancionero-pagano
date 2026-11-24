@@ -1,5 +1,6 @@
 ---
 title: Don't You Worry Child
+key: Bm
 autor: Swedish House Mafia
 link: "https://open.spotify.com/track/043bfUkTydw0xJ5JjOT91w"
 added: "2015-02-09"

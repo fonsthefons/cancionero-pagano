@@ -1,5 +1,6 @@
 ---
 title: Amsterdam
+key: D
 autor: Coldplay
 capo: "1"
 link: "https://open.spotify.com/track/2uQ4px5SPONsgcUpulywIQ"

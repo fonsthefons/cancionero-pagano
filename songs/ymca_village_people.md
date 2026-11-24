@@ -1,5 +1,6 @@
 ---
 title: YMCA
+key: G
 autor: Village People
 link: "https://open.spotify.com/track/3ypMsqUwfNFMiooMLVHfkp"
 added: "2016-07-09"

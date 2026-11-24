@@ -1,5 +1,6 @@
 ---
 title: Patience
+key: C
 autor: Take That
 capo: "3"
 link: "https://open.spotify.com/track/4DxybsoSiMUW0JI2oM0SSN"

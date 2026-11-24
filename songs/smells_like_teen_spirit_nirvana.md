@@ -1,5 +1,6 @@
 ---
 title: Smells Like Teen Spirit
+key: Em
 autor: Nirvana
 capo: "1"
 link: "https://open.spotify.com/track/6y1etHPLRsgA467gLBOgBm"

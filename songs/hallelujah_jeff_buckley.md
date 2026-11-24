@@ -1,5 +1,6 @@
 ---
 title: Hallelujah
+key: C
 autor: Jeff Buckley
 capo: "1"
 link: "https://open.spotify.com/track/3pRaLNL3b8x5uBOcsgvdqM"

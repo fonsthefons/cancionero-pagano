@@ -1,5 +1,6 @@
 ---
 title: Dreams
+key: Am
 autor: Fleetwood Mac
 link: "https://open.spotify.com/track/1lbXEepatjRVjoG8pZMtdp"
 added: "2025-01-05"

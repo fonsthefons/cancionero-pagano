@@ -1,5 +1,6 @@
 ---
 title: November Rain
+key: C
 autor: Guns N' Roses
 link: "https://open.spotify.com/track/3YRCqOhFifThpSRFJ1VWFM"
 added: "2015-12-11"

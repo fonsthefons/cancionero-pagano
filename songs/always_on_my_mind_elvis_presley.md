@@ -1,5 +1,6 @@
 ---
 title: Always On My Mind
+key: G
 autor: Elvis Presley
 link: "https://open.spotify.com/track/1B5Tp2Ml9nLlmTSJx8xVfI"
 added: "2019-11-02"

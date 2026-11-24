@@ -1,5 +1,6 @@
 ---
 title: Dame Una Pista
+key: G
 autor: Los Delinqüentes
 link: "https://open.spotify.com/track/0yK20xuIOXDqvMo4JaFuXl"
 added: "2016-05-28"

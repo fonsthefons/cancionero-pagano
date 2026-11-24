@@ -1,5 +1,6 @@
 ---
 title: Mi Estrella Blanca
+key: Am
 autor: Fondo Flamenco
 capo: "1"
 link: "https://open.spotify.com/track/15h9quQgltWsgYsdqSyPNb"

@@ -1,5 +1,6 @@
 ---
 title: Imagine
+key: C
 autor: John Lennon
 link: "https://open.spotify.com/track/0sKVgEEApbh4EmJJyoUmBB"
 added: "2016-06-03"

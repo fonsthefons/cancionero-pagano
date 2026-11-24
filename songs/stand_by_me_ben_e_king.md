@@ -1,5 +1,6 @@
 ---
 title: Stand By Me
+key: A
 autor: Ben E. King
 link: "https://open.spotify.com/track/3SdTKo2uVsxFblQjpScoHy"
 added: "2016-07-11"

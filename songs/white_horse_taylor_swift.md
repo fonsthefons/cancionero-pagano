@@ -1,5 +1,6 @@
 ---
 title: White Horse
+key: C
 autor: Taylor Swift
 link: "https://open.spotify.com/track/5yKB8qcTSflDercM2PXwot"
 added: "2017-08-27"

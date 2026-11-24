@@ -1,5 +1,6 @@
 ---
 title: For Reasons Unknown
+key: C
 autor: The Killers
 capo: "3"
 link: "https://open.spotify.com/track/6suRRwX61xSMfU7wJuCVdy"

@@ -1,5 +1,6 @@
 ---
 title: Say Yes
+key: G
 autor: Elliott Smith
 link: "https://open.spotify.com/track/7zVfEu1dEvRw4EkWoqrBkx"
 added: "2019-06-09"
@@ -62,13 +63,13 @@ Or an exception to the rule
 You tell me the morning after
 
 (for that Asus2-Am part, switch chords after each strum)
-G           D#maj7             Em7
+G           Ebmaj7             Em7
   Crooked spin can't come to rest
     F6sus2           Em7
 I'm damaged bad at best
           G5/D          C
 She'll decide what she wants
-G                D#maj7           Em7
+G                Ebmaj7           Em7
   I'll probably be the last to know
        F6sus2           Em7
 No one says until it shows

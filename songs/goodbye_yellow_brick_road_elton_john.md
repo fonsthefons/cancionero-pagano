@@ -1,5 +1,6 @@
 ---
 title: Goodbye Yellow Brick Road
+key: F
 autor: Elton John
 link: "https://open.spotify.com/track/2hLnJQsDpHaPkANY8hBXG2"
 added: "2015-04-08"

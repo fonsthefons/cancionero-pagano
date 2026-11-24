@@ -1,5 +1,6 @@
 ---
 title: I'm Yours
+key: G
 autor: Jason Mraz
 capo: "4"
 link: "https://open.spotify.com/track/1EzrEOXmMH3G43AXT1y7pA"

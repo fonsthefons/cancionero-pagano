@@ -1,5 +1,6 @@
 ---
 title: Con Sólo Una Sonrisa
+key: Dm
 autor: Melendi
 link: "https://open.spotify.com/track/3z41tgkInIFQGDabKAk2rt"
 added: "2015-07-12"

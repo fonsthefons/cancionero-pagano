@@ -1,5 +1,6 @@
 ---
 title: Heart Of Gold
+key: Em
 autor: Neil Young
 link: "https://open.spotify.com/track/26QKxvjlCo2fSd3T4c8Zpb"
 added: "2016-08-30"

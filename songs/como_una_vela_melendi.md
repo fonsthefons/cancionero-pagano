@@ -1,5 +1,6 @@
 ---
 title: Como Una Vela
+key: Em
 autor: Melendi
 capo: "2"
 link: "https://open.spotify.com/track/4kFVsVesORStS3Y5RRmkxW"

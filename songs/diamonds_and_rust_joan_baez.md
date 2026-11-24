@@ -1,5 +1,6 @@
 ---
 title: Diamonds And Rust
+key: Em
 autor: Joan Baez
 capo: "1"
 link: "https://open.spotify.com/track/4O0sGJdqpHMaWz7KoVd7tb"
@@ -17,10 +18,10 @@ Here comes your ghost again
 But that's not unusual
                    D
 It's just that the moon is full
-                    Em   Em  Em/Gb Em
+                    Em   Em  Em/F# Em
 And you happened to call
 
-    Em         Em  Em/Gb Em
+    Em         Em  Em/F# Em
 And here I sit
             C
 Hand on the telephone
@@ -31,7 +32,7 @@ A couple of light years ago
                        Em   Em  Em/Gb Em  2x
 Heading straight for a fall
 
-   Em                   Em  Em/Gb Em
+   Em                   Em  Em/F# Em
 As I remember your eyes
                 C
 Were bluer than robin's eggs
@@ -42,7 +43,7 @@ Where are you calling from?
                Em      Em  Em/Gb Em  2x
 A booth in the Midwest
 
-Em           Em  Em/Gb Em
+Em           Em  Em/F# Em
 Ten years ago
                   C
 I bought you some cufflinks
@@ -53,7 +54,7 @@ We both know what memories can bring
                         Em   Em  Em/Gb Em  2x
 They bring diamonds and rust
 
-Em                          Em  Em/Gb Em
+Em                          Em  Em/F# Em
 Well you burst on the scene
           C
 Already a legend
@@ -61,10 +62,10 @@ Already a legend
 The unwashed phenomenon
              D
 The original vagabond
-                    Em   Em  Em/Gb Em
+                    Em   Em  Em/F# Em
 You strayed into my arms
 
-    Em               Em  Em/Gb Em
+    Em               Em  Em/F# Em
 And there you stayed
             C
 Temporarily lost at sea
@@ -72,7 +73,7 @@ Temporarily lost at sea
 The Madonna was yours for free
                     D
 Yes the girl on the half-shell
-                 Em     Em  Em/Gb Em
+                 Em     Em  Em/F# Em
 Would keep you unharmed
 
     Bm
@@ -98,7 +99,7 @@ We both could have died then and there
 
 Em  Em/Gb Em  2x
 
-Em                    Em  Em/Gb Em
+Em                    Em  Em/F# Em
 Now you're telling me
               C
 You're not nostalgic
@@ -106,10 +107,10 @@ You're not nostalgic
 Then give me another word for it
                D
 You who are so good with words
-                      Em   Em  Em/Gb Em
+                      Em   Em  Em/F# Em
 And at keeping things vague
 
-Em                                        Em  Em/Gb Em
+Em                                        Em  Em/F# Em
 Because I need some of that vagueness now
                        C
 It's all come back too clearly

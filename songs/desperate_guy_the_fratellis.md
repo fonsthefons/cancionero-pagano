@@ -1,5 +1,6 @@
 ---
 title: Desperate Guy
+key: C
 autor: The Fratellis
 capo: "5"
 link: "https://open.spotify.com/track/1grKxGDOeMC4ThTpgDqc67"

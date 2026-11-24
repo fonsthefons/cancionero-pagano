@@ -1,5 +1,6 @@
 ---
 title: Champagne Supernova
+key: A
 autor: Oasis
 link: "https://open.spotify.com/track/2UjLzxf4oYjHOVOBoVojlL"
 added: "2017-07-01"

@@ -1,5 +1,6 @@
 ---
 title: Cuerda Auxiliar
+key: Am
 autor: Besmaya
 capo: "1"
 link: "https://open.spotify.com/track/3ieBy1I9Kxf5yJsBid2O6s"

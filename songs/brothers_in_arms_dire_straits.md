@@ -1,5 +1,6 @@
 ---
 title: Brothers In Arms
+key: G#m
 autor: Dire Straits
 link: "https://open.spotify.com/track/26tWBbtjvgi0tipRL2VQ2X"
 added: "2017-01-21"

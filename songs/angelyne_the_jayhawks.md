@@ -1,5 +1,6 @@
 ---
 title: Angelyne
+key: G
 autor: The Jayhawks
 capo: "2"
 link: "https://open.spotify.com/track/14VQd7KGI2SW6ST6B3y3o9"

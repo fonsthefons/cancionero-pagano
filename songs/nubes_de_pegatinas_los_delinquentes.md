@@ -1,5 +1,6 @@
 ---
 title: Nubes De Pegatinas
+key: Am
 autor: Los Delinqüentes
 added: "2016-04-24"
 song_tags:

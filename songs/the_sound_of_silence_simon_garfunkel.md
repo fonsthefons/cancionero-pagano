@@ -1,5 +1,6 @@
 ---
 title: The Sound Of Silence
+key: Am
 autor: Simon & Garfunkel
 capo: "6"
 link: "https://open.spotify.com/track/3YfS47QufnLDFA71FUsgCM"

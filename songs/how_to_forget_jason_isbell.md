@@ -1,5 +1,6 @@
 ---
 title: How To Forget
+key: C
 autor: Jason Isbell
 capo: "2"
 link: "https://open.spotify.com/track/52fMo242CPkuXj35SpdS0o"

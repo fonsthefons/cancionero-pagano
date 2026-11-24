@@ -1,5 +1,6 @@
 ---
 title: This Year's Love
+key: Em
 autor: David Gray
 capo: "1"
 link: "https://open.spotify.com/track/1wK6fC3r5fGJ7N4U8R0nOY"

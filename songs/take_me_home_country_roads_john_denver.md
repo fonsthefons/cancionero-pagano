@@ -1,5 +1,6 @@
 ---
 title: Take Me Home, Country Roads
+key: G
 autor: John Denver
 capo: "2"
 link: "https://open.spotify.com/track/39q7xibBdRboeMKUbZEB6g"

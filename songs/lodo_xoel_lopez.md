@@ -1,5 +1,6 @@
 ---
 title: Lodo
+key: E
 autor: Xoel López
 link: "https://open.spotify.com/track/05ascW5kZSLsGM7sdr9Eot"
 added: "2025-01-04"

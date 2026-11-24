@@ -1,5 +1,6 @@
 ---
 title: Mañaca
+key: A
 autor: Niña Polaca
 link: "https://open.spotify.com/track/3vCke3ndPAaZsPYzHNSLR6"
 added: "2024-08-09"

@@ -1,5 +1,6 @@
 ---
 title: Los Piratas Del Estrecho
+key: Em
 autor: Los Delinqüentes
 added: "2018-02-16"
 song_tags:

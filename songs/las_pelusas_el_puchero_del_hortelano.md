@@ -1,5 +1,6 @@
 ---
 title: Las Pelusas
+key: D
 autor: El Puchero del Hortelano
 link: "https://open.spotify.com/track/0AGNI3vw23n97nEaal3D9i"
 added: "2015-04-11"

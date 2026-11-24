@@ -1,5 +1,6 @@
 ---
 title: The Weight
+key: A
 autor: The Band
 link: "https://open.spotify.com/track/0SnEAyKMyIjRA96e0JstYl"
 added: "2015-12-11"

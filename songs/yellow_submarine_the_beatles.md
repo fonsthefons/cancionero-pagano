@@ -1,5 +1,6 @@
 ---
 title: Yellow Submarine
+key: G
 autor: The Beatles
 link: "https://open.spotify.com/track/1tdltVUBkiBCW1C3yB4zyD"
 added: "2016-06-10"

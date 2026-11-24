@@ -1,5 +1,6 @@
 ---
 title: A Hard Day's Night
+key: G
 autor: The Beatles
 link: "https://open.spotify.com/track/4rGXTNth5FprXWh6gRqj8X"
 added: "2021-02-20"

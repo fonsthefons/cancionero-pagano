@@ -1,5 +1,6 @@
 ---
 title: Se Me Va
+key: G
 autor: Siempre Así
 link: "https://open.spotify.com/track/3XkpSsznv6Y2RwSbTnRrY8"
 added: "2015-12-11"

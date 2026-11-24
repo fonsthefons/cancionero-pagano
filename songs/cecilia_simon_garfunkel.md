@@ -1,5 +1,6 @@
 ---
 title: Cecilia
+key: G
 autor: Simon & Garfunkel
 capo: "4"
 link: "https://open.spotify.com/track/6h8XXLmzrk44gRmbNgF4qO"

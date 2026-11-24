@@ -1,5 +1,6 @@
 ---
 title: I Started A Joke
+key: G
 autor: Bee Gees
 link: "https://open.spotify.com/track/36CKza28wMxYdjdzji7ine"
 added: "2020-10-29"

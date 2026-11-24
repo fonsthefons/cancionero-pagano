@@ -1,5 +1,6 @@
 ---
 title: I Hate
+key: C
 autor: Passenger
 capo: "4"
 link: "https://open.spotify.com/track/4w2G5eXOPFWMUO9ASEBGNA"

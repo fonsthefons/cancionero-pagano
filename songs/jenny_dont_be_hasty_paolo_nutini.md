@@ -1,5 +1,6 @@
 ---
 title: Jenny Don't Be Hasty
+key: F#m
 autor: Paolo Nutini
 link: "https://open.spotify.com/track/3G3GZnfjmypPEdkItAofp8"
 added: "2015-12-11"

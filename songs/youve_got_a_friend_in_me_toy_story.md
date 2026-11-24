@@ -1,5 +1,6 @@
 ---
 title: You've Got A Friend In Me
+key: C
 autor: Toy Story
 capo: "3"
 link: "https://www.youtube.com/watch?v=1MPZRcyTrcU"
@@ -9,7 +10,7 @@ song_tags:
 ---
 
 Intro:
-| C E7 | Am G#7 | C G | C Gaug | C9 Gaug |
+| C E7 | Am Ab7 | C G | C Gaug | C9 Gaug |
 
 C            Gaug      C   C7
 You've got a friend in me
@@ -23,7 +24,7 @@ F          C                E7      Am
 You just remember what your old pal said
      D7           G         C    A7
 Boy, you've got a friend in me
-      D7           G        | C E7 | Am G#7 | C G |
+      D7           G        | C E7 | Am Ab7 | C G |
 Yeah, you've got a friend in me
 
 C            Gaug      C   C7
@@ -62,5 +63,5 @@ D7            G         C    A7
  You've got a friend in me
 D7            G         C    A7
  You've got a friend in me
-D7            G        | C E7 | Am G#7 | C G | C
+D7            G        | C E7 | Am Ab7 | C G | C
  You've got a friend in me

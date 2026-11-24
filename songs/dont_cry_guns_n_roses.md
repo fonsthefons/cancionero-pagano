@@ -1,5 +1,6 @@
 ---
 title: Don't Cry
+key: Am
 autor: Guns N' Roses
 link: "https://open.spotify.com/track/6mAfxuTuRz1FWfriiFf57y"
 added: "2016-02-27"

@@ -1,5 +1,6 @@
 ---
 title: The Times They Are A-Changin'
+key: G
 autor: Bob Dylan
 link: "https://open.spotify.com/track/52vA3CYKZqZVdQnzRrdZt6"
 added: "2020-04-03"

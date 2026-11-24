@@ -1,5 +1,6 @@
 ---
 title: Tal Vez Te Acuerdes De Mí
+key: C
 autor: Andrés Suárez
 capo: "7"
 link: "https://open.spotify.com/track/3U3yr84mRvczoePZbWhclY"

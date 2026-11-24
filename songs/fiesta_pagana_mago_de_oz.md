@@ -1,5 +1,6 @@
 ---
 title: Fiesta Pagana
+key: Bm
 autor: Mägo de Oz
 link: "https://open.spotify.com/track/02dphTJYUQ9pmdNC52iyOz"
 added: "2015-04-17"

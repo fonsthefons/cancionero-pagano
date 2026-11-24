@@ -1,5 +1,6 @@
 ---
 title: I Believe In You
+key: G
 autor: Michael Bublé
 capo: "1"
 link: "https://open.spotify.com/track/67aeyMdt7cgb8l9zg53Pfm"

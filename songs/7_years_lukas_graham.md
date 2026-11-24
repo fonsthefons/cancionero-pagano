@@ -1,5 +1,6 @@
 ---
 title: 7 Years
+key: Gm
 autor: Lukas Graham
 link: "https://open.spotify.com/track/5kqIPrATaCc2LqxVWzQGbk"
 added: "2016-07-09"

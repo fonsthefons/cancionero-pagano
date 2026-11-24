@@ -1,5 +1,6 @@
 ---
 title: In The Bleak Midwinter
+key: C
 autor: Traditional
 capo: "3"
 link: "https://open.spotify.com/track/5ikJqvkaT5BN3HSS8O28bb"

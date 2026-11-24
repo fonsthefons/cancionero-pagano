@@ -1,5 +1,6 @@
 ---
 title: Summer Nights
+key: D
 autor: Grease
 link: "https://www.youtube.com/watch?v=Zrb8WTOinpM"
 added: "2016-07-09"
@@ -79,20 +80,20 @@ Tell me more, tell me more, but you don't gotta brag
 D#      G#            F              A#            D#
 Tell me more, tell me more, cause he sounds like a drag
 
-      D#     G#          A#          G#-A#-G#
+      D#     G#          Bb          G#-Bb-G#
 
-      D#     G#          A#          G#-A#-G#
+      D#     G#          Bb          G#-Bb-G#
 
-D#     G#        A#         G#-A#-G#
+D#     G#        Bb         G#-Bb-G#
 He got friendly, holdin' my hand
-D#           G#        A#          G#-A#-G#
+D#           G#        Bb          G#-Bb-G#
 Well she got friendly, down in the sand
-D#     G#     A#              C
+D#     G#     Bb              C
 He was sweet, just turned eighteen
-F            A#        F           A#
+F            Bb        F           A#
 Well she was good, you know what I mean
 
-D#     G#    A#           C
+D#     G#    Bb           C
 Summer heat, boy and girl meet,
        G#       A#     D#
 but uh-oh those summer nights

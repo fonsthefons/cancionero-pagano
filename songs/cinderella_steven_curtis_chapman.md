@@ -1,5 +1,6 @@
 ---
 title: Cinderella
+key: G
 autor: Steven Curtis Chapman
 capo: "3"
 link: "https://open.spotify.com/track/1h5QIwWxUx9FkDZWpWJWiN"

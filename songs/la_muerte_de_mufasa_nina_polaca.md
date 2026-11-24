@@ -1,5 +1,6 @@
 ---
 title: La Muerte De Mufasa
+key: C
 autor: Niña Polaca
 link: "https://open.spotify.com/track/29VBZ7tfrqkefHWGYZdFh6"
 added: "2026-08-18"

@@ -1,5 +1,6 @@
 ---
 title: Try
+key: Am
 autor: P!nk
 capo: "2"
 link: "https://open.spotify.com/track/1jF7IL57ayN4Ity3jQqGu0"

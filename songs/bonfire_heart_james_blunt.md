@@ -1,5 +1,6 @@
 ---
 title: Bonfire Heart
+key: C
 autor: James Blunt
 link: "https://open.spotify.com/track/2N0volXQpwsvjDorTTxBAU"
 added: "2018-08-31"

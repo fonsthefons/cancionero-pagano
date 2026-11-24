@@ -1,5 +1,6 @@
 ---
 title: Teardrops On My Guitar
+key: G
 autor: Taylor Swift
 capo: "3"
 link: "https://open.spotify.com/track/4tXsR2Hv3l85TQTwgEn3Um"

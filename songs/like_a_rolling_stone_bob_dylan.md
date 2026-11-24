@@ -1,5 +1,6 @@
 ---
 title: Like A Rolling Stone
+key: C
 autor: Bob Dylan
 link: "https://open.spotify.com/track/3AhXZa8sUQht0UEdBJgpGc"
 added: "2015-12-11"

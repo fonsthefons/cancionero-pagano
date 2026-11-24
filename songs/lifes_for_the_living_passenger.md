@@ -1,5 +1,6 @@
 ---
 title: Life's For The Living
+key: C
 autor: Passenger
 capo: "6"
 link: "https://open.spotify.com/track/6JvcIDY8o4GiaiEjfnMKyq"

@@ -1,5 +1,6 @@
 ---
 title: Postcards
+key: G
 autor: James Blunt
 capo: "4"
 link: "https://open.spotify.com/track/5iv1TxMh06FeEBT6wl4qPU"

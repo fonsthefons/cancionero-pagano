@@ -1,5 +1,6 @@
 ---
 title: Cuando Vuelva A Sevilla Por Primavera
+key: G
 autor: Siempre Así
 added: "2015-07-12"
 song_tags:

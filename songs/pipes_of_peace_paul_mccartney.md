@@ -1,5 +1,6 @@
 ---
 title: Pipes Of Peace
+key: Am
 autor: Paul McCartney
 link: "https://open.spotify.com/track/1UgJNySYfymlgNbEHvpmEp"
 added: "2020-05-11"

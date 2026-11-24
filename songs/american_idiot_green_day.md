@@ -1,5 +1,6 @@
 ---
 title: American Idiot
+key: A
 autor: Green Day
 link: "https://open.spotify.com/track/3XaqQk5q8OhlWpaTOZzRIR"
 added: "2020-10-18"

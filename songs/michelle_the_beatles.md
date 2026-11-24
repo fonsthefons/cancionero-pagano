@@ -1,5 +1,6 @@
 ---
 title: Michelle
+key: Em
 autor: The Beatles
 capo: "1"
 link: "https://open.spotify.com/track/5By7Pzgl6TMuVJG168VWzS"

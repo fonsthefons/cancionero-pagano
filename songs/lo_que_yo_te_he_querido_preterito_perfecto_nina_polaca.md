@@ -1,5 +1,6 @@
 ---
 title: Lo Que Yo Te He Querido Pretérito Perfecto
+key: G
 autor: Niña Polaca
 link: "https://open.spotify.com/track/20oFVIcChFk7XkMx4VSZF8"
 added: "2026-08-18"

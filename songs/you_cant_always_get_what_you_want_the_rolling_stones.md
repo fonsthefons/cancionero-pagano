@@ -1,5 +1,6 @@
 ---
 title: You Can't Always Get What You Want
+key: G
 autor: The Rolling Stones
 capo: "5"
 link: "https://open.spotify.com/track/6lFZbCc7pn6Lme1NP7qQqQ"

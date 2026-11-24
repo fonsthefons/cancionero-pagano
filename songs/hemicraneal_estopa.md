@@ -1,5 +1,6 @@
 ---
 title: Hemicraneal
+key: G
 autor: Estopa
 link: "https://open.spotify.com/track/21zsAfOLMyhPcJp7XVAGR6"
 added: "2015-02-09"

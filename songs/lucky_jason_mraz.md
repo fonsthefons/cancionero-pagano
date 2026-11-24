@@ -1,5 +1,6 @@
 ---
 title: Lucky
+key: C
 autor: Jason Mraz
 link: "https://open.spotify.com/track/0IktbUcnAGrvD03AWnz3Q8"
 added: "2015-12-11"

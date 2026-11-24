@@ -1,5 +1,6 @@
 ---
 title: Iris
+key: Em
 autor: Goo Goo Dolls
 capo: "7"
 link: "https://open.spotify.com/track/6vrUTGn5p8IrfTZ0J6sIVM"

@@ -1,5 +1,6 @@
 ---
 title: Take Me To Church
+key: Em
 autor: Hozier
 link: "https://open.spotify.com/track/3dYD57lRAUcMHufyqn9GcI"
 added: "2016-07-09"

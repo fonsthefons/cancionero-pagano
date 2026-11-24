@@ -1,5 +1,6 @@
 ---
 title: Have You Ever Seen The Rain
+key: Am
 autor: Creedence Clearwater Revival
 link: "https://open.spotify.com/track/5DnT9a5IM3eMjKgXTWVJvi"
 added: "2015-06-21"

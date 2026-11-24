@@ -1,5 +1,6 @@
 ---
 title: Tirando Balas
+key: C#m
 autor: Samuraï
 link: "https://open.spotify.com/track/15I8CL9krCHIiwZvac61yl"
 added: "2026-08-18"

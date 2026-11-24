@@ -1,5 +1,6 @@
 ---
 title: Human
+key: G
 autor: Christina Perri
 capo: "1"
 link: "https://open.spotify.com/track/1x80xTzSL7pok3M5JC3oJz"

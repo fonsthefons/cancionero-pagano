@@ -1,5 +1,6 @@
 ---
 title: Club De Fans De John Boy
+key: Bm
 autor: Love of Lesbian
 link: "https://open.spotify.com/track/1KhqSLS8YafrUCbjrn8WxZ"
 added: "2017-01-08"

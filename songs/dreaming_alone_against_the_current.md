@@ -1,5 +1,6 @@
 ---
 title: Dreaming Alone
+key: D
 autor: Against The Current
 link: "https://open.spotify.com/track/3lbtBnZlPTSlcQjgvUGsmu"
 added: "2017-10-27"

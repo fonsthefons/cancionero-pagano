@@ -1,5 +1,6 @@
 ---
 title: Chinchetas En El Aire
+key: G
 autor: Los Delinqüentes
 capo: "2"
 link: "https://open.spotify.com/track/69btiejQOmpHxMEGuoQuQZ"

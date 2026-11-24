@@ -1,5 +1,6 @@
 ---
 title: First Day Of My Life
+key: C
 autor: Bright Eyes
 capo: "4"
 link: "https://open.spotify.com/track/0eBryM7ePQH3Klt3jz8xZd"

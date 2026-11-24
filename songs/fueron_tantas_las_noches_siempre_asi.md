@@ -1,5 +1,6 @@
 ---
 title: Fueron Tantas Las Noches
+key: Am
 autor: Siempre Así
 capo: "1"
 link: "https://www.youtube.com/watch?v=r8_4-sceeuQ"

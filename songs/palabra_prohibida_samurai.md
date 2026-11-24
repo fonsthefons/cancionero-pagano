@@ -1,5 +1,6 @@
 ---
 title: Palabra Prohibida
+key: Dm
 autor: Samuraï
 link: "https://open.spotify.com/track/4sRulaggpSTT3mLCZsaJ5v"
 added: "2026-08-20"

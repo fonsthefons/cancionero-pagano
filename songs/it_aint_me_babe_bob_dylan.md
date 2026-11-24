@@ -1,5 +1,6 @@
 ---
 title: It Ain't Me Babe
+key: G
 autor: Bob Dylan
 link: "https://open.spotify.com/track/5nbNWAfT1S6V1vqj3snHxS"
 added: "2020-03-28"

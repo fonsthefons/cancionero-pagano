@@ -1,5 +1,6 @@
 ---
 title: Ojalá
+key: Am
 autor: Silvio Rodríguez
 link: "https://open.spotify.com/track/5sQGo3fB2NoFalyy4uZjiu"
 added: "2025-01-04"

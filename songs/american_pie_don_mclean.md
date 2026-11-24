@@ -1,5 +1,6 @@
 ---
 title: American Pie
+key: G
 autor: Don McLean
 link: "https://open.spotify.com/track/1fDsrQ23eTAVFElUMaf38X"
 added: "2015-02-09"

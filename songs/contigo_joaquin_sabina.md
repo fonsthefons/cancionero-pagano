@@ -1,5 +1,6 @@
 ---
 title: Contigo
+key: E
 autor: Joaquín Sabina
 link: "https://open.spotify.com/track/1YjQWjlYJdVOdFsRBbvKJ3"
 added: "2016-08-07"

@@ -1,5 +1,6 @@
 ---
 title: Fix You
+key: C
 autor: Coldplay
 capo: "3"
 link: "https://open.spotify.com/track/7LVHVU3tWfcxj5aiPFEW4Q"

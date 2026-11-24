@@ -1,5 +1,6 @@
 ---
 title: O Come All Ye Faithful
+key: G
 autor: George Strait
 link: "https://open.spotify.com/track/3jjKazzlyNqOi8ohU3KKwZ"
 added: "2018-12-26"

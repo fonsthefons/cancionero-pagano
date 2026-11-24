@@ -1,5 +1,6 @@
 ---
 title: House Of The Rising Sun
+key: Am
 autor: The Animals
 link: "https://open.spotify.com/track/7BY005dacJkbO6EPiOh2wb"
 added: "2016-02-08"

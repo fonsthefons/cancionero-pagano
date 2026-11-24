@@ -1,5 +1,6 @@
 ---
 title: Carry You Home
+key: C
 autor: James Blunt
 capo: "2"
 link: "https://open.spotify.com/track/0JkXH76JKnkypqAZmFN171"

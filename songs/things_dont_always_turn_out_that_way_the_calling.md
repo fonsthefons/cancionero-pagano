@@ -1,5 +1,6 @@
 ---
 title: Things Don't Always Turn Out That Way
+key: Em
 autor: The Calling
 capo: "3"
 link: "https://open.spotify.com/track/7wOOUms5bk9FV6ADDF4iEr"

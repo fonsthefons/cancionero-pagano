@@ -1,5 +1,6 @@
 ---
 title: In My Life
+key: A
 autor: The Beatles
 link: "https://open.spotify.com/track/4UUWzysm0XoCZliYKBPAXh"
 added: "2016-07-10"

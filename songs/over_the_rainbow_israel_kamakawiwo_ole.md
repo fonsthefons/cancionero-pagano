@@ -1,5 +1,6 @@
 ---
 title: Over The Rainbow
+key: F
 autor: Israel Kamakawiwoʻole
 capo: "7"
 link: "https://open.spotify.com/track/3bINd6fURyFLT0sQwkjbCG"

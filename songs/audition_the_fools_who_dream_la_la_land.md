@@ -1,5 +1,6 @@
 ---
 title: Audition (The Fools Who Dream)
+key: F
 autor: La La Land
 link: "https://www.youtube.com/watch?v=SL_YMm9C6tw"
 added: "2017-08-10"

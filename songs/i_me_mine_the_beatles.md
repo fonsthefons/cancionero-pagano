@@ -1,5 +1,6 @@
 ---
 title: I Me Mine
+key: Gm
 autor: The Beatles
 capo: "2"
 link: "https://open.spotify.com/track/21764t9pGN7Y2EH7ezfbjk"

@@ -1,5 +1,6 @@
 ---
 title: Star Mile
+key: G
 autor: Joshua Radin
 capo: "2"
 link: "https://open.spotify.com/track/5VaJ9leHPd2aDgvrGBMD39"

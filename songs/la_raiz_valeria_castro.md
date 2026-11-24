@@ -1,5 +1,6 @@
 ---
 title: La Raíz
+key: Am
 autor: Valeria Castro
 capo: "3"
 link: "https://open.spotify.com/track/03tz2giwv6Jv0Sl5bXDy0A"

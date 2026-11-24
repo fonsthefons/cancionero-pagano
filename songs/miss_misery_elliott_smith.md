@@ -1,5 +1,6 @@
 ---
 title: Miss Misery
+key: Dm
 autor: Elliott Smith
 link: "https://open.spotify.com/track/4zetUxeSCCDwrr1jJT0SuD"
 added: "2019-07-25"

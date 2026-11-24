@@ -1,5 +1,6 @@
 ---
 title: Los Tontos
+key: Am
 autor: C. Tangana
 link: "https://open.spotify.com/track/4DoEHKWh8k6vYDleECQkJx"
 added: "2026-06-27"

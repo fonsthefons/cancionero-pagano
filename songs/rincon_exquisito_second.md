@@ -1,5 +1,6 @@
 ---
 title: Rincón Exquisito
+key: E
 autor: Second
 link: "https://open.spotify.com/track/2UfGBO7lPSc9JUDV4BpwAu"
 added: "2016-08-30"

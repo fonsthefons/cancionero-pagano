@@ -1,5 +1,6 @@
 ---
 title: They Remind Me Too Much Of You
+key: C
 autor: Elvis Presley
 capo: "1"
 link: "https://open.spotify.com/track/2HGsnxgBsC1T7FTL81bPui"

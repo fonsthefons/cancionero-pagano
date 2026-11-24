@@ -1,5 +1,6 @@
 ---
 title: Father And Son
+key: G
 autor: Cat Stevens
 link: "https://open.spotify.com/track/19slC7k8bsPOAKDjHYLU2W"
 added: "2016-08-09"

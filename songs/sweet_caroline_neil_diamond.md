@@ -1,5 +1,6 @@
 ---
 title: Sweet Caroline
+key: G
 autor: Neil Diamond
 capo: "4"
 link: "https://open.spotify.com/track/62AuGbAkt8Ox2IrFFb8GKV"

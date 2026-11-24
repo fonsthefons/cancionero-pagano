@@ -1,5 +1,6 @@
 ---
 title: Goodbye My Lover
+key: E
 autor: James Blunt
 link: "https://open.spotify.com/track/6gxycjJNMgmAyfzUXBN80P"
 added: "2016-08-07"

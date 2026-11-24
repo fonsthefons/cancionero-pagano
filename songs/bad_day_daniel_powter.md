@@ -1,5 +1,6 @@
 ---
 title: Bad Day
+key: D
 autor: Daniel Powter
 capo: "1"
 link: "https://open.spotify.com/track/0mUyMawtxj1CJ76kn9gIZK"

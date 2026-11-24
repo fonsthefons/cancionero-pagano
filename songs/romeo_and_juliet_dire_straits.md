@@ -1,5 +1,6 @@
 ---
 title: Romeo And Juliet
+key: C
 autor: Dire Straits
 capo: "5"
 link: "https://open.spotify.com/track/5QcecHpeOxM2fAzoxnZxIX"

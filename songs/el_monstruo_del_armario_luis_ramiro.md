@@ -1,5 +1,6 @@
 ---
 title: El Monstruo Del Armario
+key: Bm
 autor: Luis Ramiro
 capo: "2"
 link: "https://open.spotify.com/track/1JprtBkRBi4Rrvjj28vrSz"

@@ -1,5 +1,6 @@
 ---
 title: I'm Yours
+key: C
 autor: The Script
 capo: "5"
 link: "https://open.spotify.com/track/6R9Hr8YQs2fKjOG7TdWDsg"

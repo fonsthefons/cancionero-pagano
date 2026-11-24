@@ -1,5 +1,6 @@
 ---
 title: Total Eclipse Of The Heart
+key: G
 autor: Bonnie Tyler
 capo: "1"
 link: "https://open.spotify.com/track/1VrfLrBviw9A6JzRoo3t2C"

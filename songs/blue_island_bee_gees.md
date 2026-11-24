@@ -1,5 +1,6 @@
 ---
 title: Blue Island
+key: G
 autor: Bee Gees
 link: "https://open.spotify.com/track/4efTevHROX06lQKpzeENvq"
 added: "2020-09-29"

@@ -1,5 +1,6 @@
 ---
 title: Here Comes The Sun
+key: A
 autor: The Beatles
 link: "https://open.spotify.com/track/45yEy5WJywhJ3sDI28ajTm"
 added: "2016-08-04"

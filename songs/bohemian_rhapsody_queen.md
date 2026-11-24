@@ -1,5 +1,6 @@
 ---
 title: Bohemian Rhapsody
+key: Gm
 autor: Queen
 link: "https://open.spotify.com/track/3z8h0TU7ReDPLIbEnYhWZb"
 added: "2015-12-11"
@@ -115,5 +116,5 @@ Nothing really matters, nothing really matters to me.
 Eb  Ab  Eb  Ebdim7
 Bb/D  Bbm/Db  C7  C7-9  C7  F
 
-Bb  F       Abdim Gm7    F
+Bb  F       G#dim Gm7    F
 Any way the wind  blows.

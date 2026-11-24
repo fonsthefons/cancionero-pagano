@@ -1,5 +1,6 @@
 ---
 title: Mr. Brightside
+key: C
 autor: The Killers
 capo: "1"
 link: "https://open.spotify.com/track/003vvx7Niy0yvhvHt4a68B"

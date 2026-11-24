@@ -1,5 +1,6 @@
 ---
 title: Scare Away The Dark
+key: C
 autor: Passenger
 capo: "7"
 link: "https://open.spotify.com/track/3XwyyIA0B4LQRluzC5CEQ8"

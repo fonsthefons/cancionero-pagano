@@ -1,5 +1,6 @@
 ---
 title: Nothing Else Matters
+key: Em
 autor: Metallica
 link: "https://open.spotify.com/track/3ZFwuJwUpIl0GeXsvF1ELf"
 added: "2016-01-22"

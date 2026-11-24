@@ -1,5 +1,6 @@
 ---
 title: Trying Not To Love You
+key: Bm
 autor: Nickelback
 link: "https://open.spotify.com/track/4Dq75eGDLZGM9EGP0XHbo2"
 added: "2017-09-24"

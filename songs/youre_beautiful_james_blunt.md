@@ -1,5 +1,6 @@
 ---
 title: You're Beautiful
+key: G
 autor: James Blunt
 capo: "8"
 link: "https://open.spotify.com/track/0vg4WnUWvze6pBOJDTq99k"

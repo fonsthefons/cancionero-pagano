@@ -1,5 +1,6 @@
 ---
 title: Wonderful Tonight
+key: G
 autor: Eric Clapton
 link: "https://open.spotify.com/track/6zC0mpGYwbNTpk9SKwh08f"
 added: "2018-08-31"

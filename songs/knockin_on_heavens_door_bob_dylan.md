@@ -1,5 +1,6 @@
 ---
 title: Knockin' On Heaven's Door
+key: G
 autor: Bob Dylan
 link: "https://open.spotify.com/track/6HSXNV0b4M4cLJ7ljgVVeh"
 added: "2025-01-04"

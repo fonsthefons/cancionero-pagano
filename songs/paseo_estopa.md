@@ -1,5 +1,6 @@
 ---
 title: Paseo
+key: C
 autor: Estopa
 link: "https://open.spotify.com/track/6pWeJvzpQR1ihiUSJklOzD"
 added: "2015-07-12"

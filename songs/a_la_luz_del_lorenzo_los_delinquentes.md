@@ -1,5 +1,6 @@
 ---
 title: A La Luz Del Lorenzo
+key: A
 autor: Los Delinqüentes
 link: "https://open.spotify.com/track/6bMRELN9nclL87w9XEMMnw"
 added: "2015-05-15"

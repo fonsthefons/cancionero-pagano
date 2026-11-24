@@ -1,5 +1,6 @@
 ---
 title: Alquitrán Y Carmín
+key: A
 autor: El Kanka
 link: "https://open.spotify.com/track/7bqnSrUqtjb2s6PTyu7F6v"
 added: "2017-09-13"

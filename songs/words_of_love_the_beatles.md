@@ -1,5 +1,6 @@
 ---
 title: Words Of Love
+key: A
 autor: The Beatles
 link: "https://open.spotify.com/track/0ciN57sh0lG9SjeN4CiU0E"
 added: "2020-09-29"

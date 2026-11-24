@@ -1,5 +1,6 @@
 ---
 title: Vincent
+key: G
 autor: Don McLean
 link: "https://open.spotify.com/track/3VAIny0fsmbiZCwt3817Ay"
 added: "2015-06-22"

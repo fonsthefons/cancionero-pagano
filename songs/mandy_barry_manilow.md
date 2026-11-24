@@ -1,5 +1,6 @@
 ---
 title: Mandy
+key: A
 autor: Barry Manilow
 capo: "1"
 link: "https://open.spotify.com/track/6iXQrhhgBisdfvS34EMTZ3"

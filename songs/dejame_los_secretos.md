@@ -1,5 +1,6 @@
 ---
 title: Déjame
+key: G
 autor: Los Secretos
 link: "https://open.spotify.com/track/74anwTmdyvA3f8RUtCQqKD"
 added: "2016-07-16"

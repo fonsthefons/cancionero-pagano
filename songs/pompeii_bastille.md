@@ -1,5 +1,6 @@
 ---
 title: Pompeii
+key: G
 autor: Bastille
 capo: "2"
 link: "https://open.spotify.com/track/7Fw5i56my24ZBnGS7hFX2n"

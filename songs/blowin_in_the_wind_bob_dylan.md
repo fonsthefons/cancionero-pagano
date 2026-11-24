@@ -1,5 +1,6 @@
 ---
 title: Blowin' In The Wind
+key: G
 autor: Bob Dylan
 capo: "7"
 link: "https://open.spotify.com/track/18GiV1BaXzPVYpp9rmOg0E"

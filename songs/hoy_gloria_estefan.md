@@ -1,5 +1,6 @@
 ---
 title: Hoy
+key: G#m
 autor: Gloria Estefan
 link: "https://open.spotify.com/track/7BZVS9FlVL1NQOShky7Bpw"
 added: "2015-12-11"

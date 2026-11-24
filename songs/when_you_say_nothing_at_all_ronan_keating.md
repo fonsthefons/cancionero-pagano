@@ -1,5 +1,6 @@
 ---
 title: When You Say Nothing At All
+key: G
 autor: Ronan Keating
 link: "https://open.spotify.com/track/0gcjc7Vt5xtcfmJgf6g2IO"
 added: "2017-10-28"

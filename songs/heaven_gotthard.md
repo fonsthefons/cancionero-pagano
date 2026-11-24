@@ -1,5 +1,6 @@
 ---
 title: Heaven
+key: G
 autor: Gotthard
 link: "https://open.spotify.com/track/24iih8otXrqom8gDxYloU3"
 added: "2015-12-11"

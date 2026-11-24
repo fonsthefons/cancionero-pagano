@@ -1,5 +1,6 @@
 ---
 title: Crazy
+key: Am
 autor: Gnarls Barkley
 capo: "3"
 link: "https://open.spotify.com/track/6o1l9I0faXJN2iqulHrdCQ"

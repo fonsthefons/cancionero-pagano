@@ -1,5 +1,6 @@
 ---
 title: Love Is Easy
+key: A
 autor: McFly
 capo: "2"
 link: "https://open.spotify.com/track/1SLWLZPU1gP4UbJ7RniOFq"

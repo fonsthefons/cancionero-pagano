@@ -1,5 +1,6 @@
 ---
 title: La Vereda
+key: C
 autor: Ede
 link: "https://open.spotify.com/track/2GGWvNimbexnzYzhMl4zgJ"
 added: "2026-08-18"

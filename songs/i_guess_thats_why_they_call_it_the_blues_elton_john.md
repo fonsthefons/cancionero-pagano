@@ -1,5 +1,6 @@
 ---
 title: I Guess That's Why They Call It The Blues
+key: G
 autor: Elton John
 link: "https://open.spotify.com/track/23l1kVpqMVREiwU1YAlcr4"
 added: "2016-01-09"

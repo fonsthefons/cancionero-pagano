@@ -1,5 +1,6 @@
 ---
 title: Somebody That I Used To Know
+key: Am
 autor: Gotye
 capo: "5"
 link: "https://open.spotify.com/track/4wCmqSrbyCgxEXROQE6vtV"

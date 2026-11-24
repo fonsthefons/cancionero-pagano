@@ -1,5 +1,6 @@
 ---
 title: The Last Resort
+key: E
 autor: Eagles
 link: "https://open.spotify.com/track/3v7T59SCimSUBbfvUCq7Vz"
 added: "2017-08-08"

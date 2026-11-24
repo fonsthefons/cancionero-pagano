@@ -1,5 +1,6 @@
 ---
 title: Un Beso Y Una Flor
+key: A
 autor: Nino Bravo
 link: "https://open.spotify.com/track/5IU4JO2cpa0wPK8oQWFfCr"
 added: "2026-05-14"

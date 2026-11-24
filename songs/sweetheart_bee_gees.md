@@ -1,5 +1,6 @@
 ---
 title: Sweetheart
+key: D
 autor: Bee Gees
 link: "https://open.spotify.com/track/6VQaoWKOcjN3ESxgXbGuTu"
 added: "2020-10-30"

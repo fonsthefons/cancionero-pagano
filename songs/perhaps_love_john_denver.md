@@ -1,5 +1,6 @@
 ---
 title: Perhaps Love
+key: A
 autor: John Denver
 link: "https://open.spotify.com/track/322VOABh8nCCZqpUOVaJ8T"
 added: "2018-11-01"

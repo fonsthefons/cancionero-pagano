@@ -1,5 +1,6 @@
 ---
 title: Mi Niña De La Palmera
+key: G
 autor: Los Delinqüentes
 link: "https://open.spotify.com/track/1N0pXVlgb69HTKWEbsA0W1"
 added: "2015-05-06"

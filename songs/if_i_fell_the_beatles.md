@@ -1,5 +1,6 @@
 ---
 title: If I Fell
+key: D
 autor: The Beatles
 link: "https://open.spotify.com/track/6aSlrpm8R3eop7wDLt1R55"
 added: "2020-04-30"
@@ -12,7 +13,7 @@ Intro:
 If I fell in love with you
           D
 Would you promise to be true
-    Db      Bbm
+    C#      Bbm
 And help me understand
             Ebm
 'Cause I've been in love before

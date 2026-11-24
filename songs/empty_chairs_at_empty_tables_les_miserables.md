@@ -1,5 +1,6 @@
 ---
 title: Empty Chairs At Empty Tables
+key: Am
 autor: Les Misérables
 capo: "1"
 link: "https://open.spotify.com/track/323CUuvw8L3nDkFV3Idkcw"

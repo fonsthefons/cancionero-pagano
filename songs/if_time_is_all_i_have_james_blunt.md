@@ -1,5 +1,6 @@
 ---
 title: If Time Is All I Have
+key: Am
 autor: James Blunt
 capo: "1"
 link: "https://open.spotify.com/track/2rx7loVGMT8t6PDZ0PvXlh"

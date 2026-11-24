@@ -1,5 +1,6 @@
 ---
 title: You Raise Me Up
+key: D
 autor: Josh Groban
 capo: "1"
 link: "https://open.spotify.com/track/1xugsCboIm1yILqpLvH9aD"

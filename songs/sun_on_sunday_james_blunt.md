@@ -1,5 +1,6 @@
 ---
 title: Sun On Sunday
+key: D
 autor: James Blunt
 link: "https://open.spotify.com/track/33j7d8mGP4EdgFs2a3rseT"
 added: "2018-08-31"

@@ -1,5 +1,6 @@
 ---
 title: Yesterday
+key: C
 autor: The Beatles
 capo: "5"
 link: "https://open.spotify.com/track/76E0QcBrJSXr9wzAA8Xzgi"

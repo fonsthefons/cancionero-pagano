@@ -1,5 +1,6 @@
 ---
 title: I Need You To Turn To
+key: Em
 autor: Elton John
 link: "https://open.spotify.com/track/7phTxbdPX8sLRehWtLPxHl"
 added: "2016-08-08"

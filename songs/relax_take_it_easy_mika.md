@@ -1,5 +1,6 @@
 ---
 title: Relax, Take It Easy
+key: F#m
 autor: Mika
 link: "https://open.spotify.com/track/0KM2y796j63t5RHhvRUxld"
 added: "2015-06-18"

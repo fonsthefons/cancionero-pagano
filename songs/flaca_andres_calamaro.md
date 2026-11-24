@@ -1,5 +1,6 @@
 ---
 title: Flaca
+key: G
 autor: Andrés Calamaro
 link: "https://open.spotify.com/track/1p7m9H4H8s0Y7SgRm7j3ED"
 added: "2017-08-08"

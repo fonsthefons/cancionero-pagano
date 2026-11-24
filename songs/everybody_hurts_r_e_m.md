@@ -1,5 +1,6 @@
 ---
 title: Everybody Hurts
+key: D
 autor: R.E.M.
 link: "https://open.spotify.com/track/6PypGyiu0Y2lCDBN1XZEnP"
 added: "2018-08-31"

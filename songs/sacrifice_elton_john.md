@@ -1,5 +1,6 @@
 ---
 title: Sacrifice
+key: D
 autor: Elton John
 link: "https://open.spotify.com/track/0e3yhVeNaTfKIWQRw9U9sY"
 added: "2018-09-03"

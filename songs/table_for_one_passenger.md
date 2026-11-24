@@ -1,5 +1,6 @@
 ---
 title: Table For One
+key: G
 autor: Passenger
 link: "https://open.spotify.com/track/7M97bveNtmOH81lo1Ad0VN"
 added: "2016-11-14"

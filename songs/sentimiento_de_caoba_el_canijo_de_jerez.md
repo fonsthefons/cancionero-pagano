@@ -1,5 +1,6 @@
 ---
 title: Sentimiento De Caoba
+key: F#m
 autor: El Canijo de Jerez
 capo: "2"
 link: "https://open.spotify.com/track/4NG3M6Ebo8mt7w7fg5ksri"

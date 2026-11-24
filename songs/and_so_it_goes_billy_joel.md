@@ -1,5 +1,6 @@
 ---
 title: And So It Goes
+key: C
 autor: Billy Joel
 link: "https://open.spotify.com/track/1u7kQUb3lQcpHaYRfia13A"
 added: "2017-04-09"

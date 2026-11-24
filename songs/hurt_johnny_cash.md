@@ -1,5 +1,6 @@
 ---
 title: Hurt
+key: Am
 autor: Johnny Cash
 link: "https://open.spotify.com/track/5VFzIzR8nACf9Bad4O73f6"
 added: "2015-04-28"

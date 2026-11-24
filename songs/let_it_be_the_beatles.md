@@ -1,5 +1,6 @@
 ---
 title: Let It Be
+key: C
 autor: The Beatles
 link: "https://open.spotify.com/track/6ZVRonbDAqbkVap0gDZh5J"
 added: "2016-07-16"

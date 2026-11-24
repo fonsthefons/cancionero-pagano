@@ -1,5 +1,6 @@
 ---
 title: Yellow
+key: G
 autor: Coldplay
 capo: "4"
 link: "https://open.spotify.com/track/3AJwUDP919kvQ9QcozQPxg"

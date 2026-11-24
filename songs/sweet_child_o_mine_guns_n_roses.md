@@ -1,5 +1,6 @@
 ---
 title: Sweet Child O' Mine
+key: D
 autor: Guns N' Roses
 link: "https://open.spotify.com/track/7snQQk1zcKl8gZ92AnueZW"
 added: "2015-12-11"

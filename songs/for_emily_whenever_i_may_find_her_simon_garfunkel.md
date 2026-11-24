@@ -1,5 +1,6 @@
 ---
 title: For Emily Whenever I May Find Her
+key: D
 autor: Simon & Garfunkel
 capo: "3"
 link: "https://open.spotify.com/track/76Fcbx3T7fUgA7phUkmsn7"

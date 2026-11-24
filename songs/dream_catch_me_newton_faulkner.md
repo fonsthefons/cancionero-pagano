@@ -1,5 +1,6 @@
 ---
 title: Dream Catch Me
+key: G
 autor: Newton Faulkner
 capo: "7"
 link: "https://open.spotify.com/track/3vIVCdRx0jaxegLrtuGYvH"

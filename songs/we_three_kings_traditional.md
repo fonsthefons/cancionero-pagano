@@ -1,5 +1,6 @@
 ---
 title: We Three Kings
+key: Am
 autor: Traditional
 link: "https://open.spotify.com/track/7tUMfI6mbqWvTvg0DcVT8H"
 added: "2018-12-28"

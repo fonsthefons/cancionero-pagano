@@ -1,5 +1,6 @@
 ---
 title: Hello
+key: Am
 autor: Lionel Richie
 link: "https://open.spotify.com/track/0mHyWYXmmCB9iQyK18m3FQ"
 added: "2017-08-08"

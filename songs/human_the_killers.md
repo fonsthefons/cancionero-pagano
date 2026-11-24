@@ -1,5 +1,6 @@
 ---
 title: Human
+key: A
 autor: The Killers
 capo: "1"
 link: "https://open.spotify.com/track/1sTsuZTdANkiFd7T34H3nb"

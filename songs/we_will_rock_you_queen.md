@@ -1,5 +1,6 @@
 ---
 title: We Will Rock You
+key: Em
 autor: Queen
 link: "https://open.spotify.com/track/0a9sd6MEXZXIPHk0fAxpZ4"
 added: "2016-07-09"

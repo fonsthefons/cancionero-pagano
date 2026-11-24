@@ -1,5 +1,6 @@
 ---
 title: Dani California
+key: Am
 autor: Red Hot Chili Peppers
 link: "https://open.spotify.com/track/10Nmj3JCNoMeBQ87uw5j8k"
 added: "2015-12-11"

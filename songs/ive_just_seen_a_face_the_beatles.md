@@ -1,5 +1,6 @@
 ---
 title: I've Just Seen A Face
+key: G
 autor: The Beatles
 capo: "2"
 link: "https://open.spotify.com/track/788U1Sqej9M6c4iikuDGxO"

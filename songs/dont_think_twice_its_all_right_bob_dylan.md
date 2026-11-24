@@ -1,5 +1,6 @@
 ---
 title: Don't Think Twice It's All Right
+key: C
 autor: Bob Dylan
 capo: "4"
 link: "https://open.spotify.com/track/2WOjLF83vqjit2Zh4B69V3"

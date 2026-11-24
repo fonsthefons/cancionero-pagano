@@ -1,5 +1,6 @@
 ---
 title: Lemon Tree
+key: Am
 autor: Fool's Garden
 capo: "8"
 link: "https://open.spotify.com/track/66Ekl8JDnbnEFXxo5HmEoN"

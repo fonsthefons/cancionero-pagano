@@ -1,5 +1,6 @@
 ---
 title: Hallelujah
+key: C
 autor: Rufus Wainwright
 link: "https://open.spotify.com/track/2T1clAQg0yqVcDDYD7v86V"
 added: "2016-12-03"

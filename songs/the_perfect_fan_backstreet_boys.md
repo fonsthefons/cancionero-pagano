@@ -1,5 +1,6 @@
 ---
 title: The Perfect Fan
+key: D
 autor: Backstreet Boys
 capo: "3"
 link: "https://open.spotify.com/track/5XgxLtOR4oKxnfA7Fb4968"

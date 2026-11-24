@@ -1,5 +1,6 @@
 ---
 title: Broken Strings
+key: Am
 autor: James Morrison
 capo: "1"
 link: "https://open.spotify.com/track/0tp2cUnCAcsR6xL5kw9HKu"

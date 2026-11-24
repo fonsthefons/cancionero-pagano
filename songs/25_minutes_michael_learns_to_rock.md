@@ -1,5 +1,6 @@
 ---
 title: 25 Minutes
+key: F#
 autor: Michael Learns to Rock
 link: "https://open.spotify.com/track/0spep9kiVz8ygYXCy4WCcz"
 added: "2015-02-09"

@@ -1,5 +1,6 @@
 ---
 title: El Aire De La Calle
+key: Am
 autor: Los Delinqüentes
 capo: "6"
 link: "https://open.spotify.com/track/2PaETSKl3w3IdtLIbDnQXJ"

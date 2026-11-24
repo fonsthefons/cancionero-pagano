@@ -1,5 +1,6 @@
 ---
 title: Kiss Me
+key: D
 autor: Sixpence None The Richer
 capo: "1"
 link: "https://open.spotify.com/track/754kgU5rWscRTfvlsuEwFp"

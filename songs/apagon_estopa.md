@@ -1,5 +1,6 @@
 ---
 title: Apagón
+key: Am
 autor: Estopa
 link: "https://open.spotify.com/track/3v69iPsJjjp8rnE5WUpy2x"
 added: "2015-12-11"

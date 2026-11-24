@@ -1,5 +1,6 @@
 ---
 title: Stolen Dance
+key: G#m
 autor: Milky Chance
 link: "https://open.spotify.com/track/34xGLuxM0rkxhCVyMSqwJO"
 added: "2015-04-14"

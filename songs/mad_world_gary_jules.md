@@ -1,5 +1,6 @@
 ---
 title: Mad World
+key: D
 autor: Gary Jules
 capo: "1"
 link: "https://open.spotify.com/track/1ewqpUUSLANb3jjc4UI8uX"

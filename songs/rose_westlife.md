@@ -1,5 +1,6 @@
 ---
 title: Rose
+key: A
 autor: Westlife
 link: "https://open.spotify.com/track/1kAC8QX4meGZhEbtXtqF1o"
 added: "2017-10-28"

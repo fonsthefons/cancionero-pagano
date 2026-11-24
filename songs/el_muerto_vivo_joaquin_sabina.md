@@ -1,5 +1,6 @@
 ---
 title: El Muerto Vivo
+key: Gm
 autor: Joaquín Sabina
 link: "https://open.spotify.com/track/25vCImc2WKtYhor7YS06Y1"
 added: "2017-11-01"

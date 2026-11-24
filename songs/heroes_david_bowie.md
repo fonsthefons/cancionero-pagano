@@ -1,5 +1,6 @@
 ---
 title: Heroes
+key: G
 autor: David Bowie
 link: "https://open.spotify.com/track/5TdXeWOn7NysrbimErhM2i"
 added: "2025-01-07"

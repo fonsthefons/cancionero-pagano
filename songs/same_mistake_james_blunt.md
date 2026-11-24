@@ -1,5 +1,6 @@
 ---
 title: Same Mistake
+key: G
 autor: James Blunt
 capo: "3"
 link: "https://open.spotify.com/track/2YaGZvBfkQ4jiD5cMLIFQV"

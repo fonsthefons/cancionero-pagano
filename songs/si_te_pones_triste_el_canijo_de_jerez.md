@@ -1,5 +1,6 @@
 ---
 title: Si Te Pones Triste
+key: Em
 autor: El Canijo de Jerez
 capo: "3"
 link: "https://open.spotify.com/track/2kjTebPIST4wBHeGLQQV3i"

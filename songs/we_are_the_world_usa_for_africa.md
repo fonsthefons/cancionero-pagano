@@ -1,5 +1,6 @@
 ---
 title: We Are The World
+key: E
 autor: USA for Africa
 link: "https://open.spotify.com/track/3Z2tPWiNiIpg8UMMoowHIk"
 added: "2015-06-14"

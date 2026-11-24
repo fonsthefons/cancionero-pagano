@@ -1,5 +1,6 @@
 ---
 title: Nan's Song
+key: D
 autor: Robbie Williams
 link: "https://open.spotify.com/track/4csONhd0Qm1bTLRlJaqNZO"
 added: "2016-07-15"

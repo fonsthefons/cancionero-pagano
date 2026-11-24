@@ -1,5 +1,6 @@
 ---
 title: Donna Donna
+key: Am
 autor: Joan Baez
 capo: "2"
 link: "https://open.spotify.com/track/49uBVeaM3ixGD8VIeqh9KI"

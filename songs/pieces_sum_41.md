@@ -1,5 +1,6 @@
 ---
 title: Pieces
+key: Dm
 autor: Sum 41
 link: "https://open.spotify.com/track/1ibeKVCiXORhvUpMmtsQWq"
 added: "2016-08-09"

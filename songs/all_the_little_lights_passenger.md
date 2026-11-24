@@ -1,5 +1,6 @@
 ---
 title: All The Little Lights
+key: C
 autor: Passenger
 capo: "7"
 link: "https://open.spotify.com/track/2iAYjRL3u9uPwnHuiLxuGS"

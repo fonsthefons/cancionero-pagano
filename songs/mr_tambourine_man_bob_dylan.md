@@ -1,5 +1,6 @@
 ---
 title: Mr. Tambourine Man
+key: D
 autor: Bob Dylan
 capo: "3"
 link: "https://open.spotify.com/track/7JSamT3H89ez690h0vZu7d"

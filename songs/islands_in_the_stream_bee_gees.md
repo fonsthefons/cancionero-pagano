@@ -1,5 +1,6 @@
 ---
 title: Islands In The Stream
+key: C
 autor: Bee Gees
 link: "https://open.spotify.com/track/0w3BOmAfr2tMKpVeTXqalI"
 added: "2020-09-15"

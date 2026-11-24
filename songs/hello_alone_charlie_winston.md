@@ -1,5 +1,6 @@
 ---
 title: Hello Alone
+key: Gm
 autor: Charlie Winston
 link: "https://open.spotify.com/track/4Gg7YrjC8HfoQFNML3NF7S"
 added: "2017-08-27"
@@ -61,7 +62,7 @@ But it's no use to pose the question,
 When the answers never sheen,
 Eb                            D
 And then I have to face up to the facts
-Eb                                Ebsus4        Eb
+Eb                                Ebsus4        D#
 With saxophones and old trombones carrying me home to say
 
 G#m                C#m
@@ -70,12 +71,12 @@ G#m                            D#7
 How can we pretend we've never met?
 G#m             C#m
 Hello alone you might as well come in,
-G#m               D#7
+G#m               Eb7
 We've been making bets for too long...
 
 C#m
 Perhaps I'll take a holiday,
-                        C#sus4
+                        Dbsus4
 And get as far away as I can,
 C#m
 But then I'd just be far away,
@@ -96,5 +97,5 @@ We've been making bets for too long now
 G#m               D#7              G#m
 We've been making bets for so long now
 
-G#m               D#7         C#m     D#7     G#m
+G#m               Eb7         C#m     D#7     G#m
 We've been making bets for so long....so long now

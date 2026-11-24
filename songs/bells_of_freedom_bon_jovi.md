@@ -1,5 +1,6 @@
 ---
 title: Bells Of Freedom
+key: Bm
 autor: Bon Jovi
 link: "https://open.spotify.com/track/5uw7PcXMhP646eoWF9yy7A"
 added: "2018-12-12"

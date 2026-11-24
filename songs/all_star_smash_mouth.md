@@ -1,5 +1,6 @@
 ---
 title: All Star
+key: G
 autor: Smash Mouth
 link: "https://open.spotify.com/track/3cfOd4CMv2snFaKAnMdnvK"
 added: "2016-06-19"

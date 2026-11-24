@@ -1,5 +1,6 @@
 ---
 title: Beelzeboss
+key: Gm
 autor: Tenacious D
 link: "https://open.spotify.com/track/0ffz9KBdCb7oJkSK0W7bbf"
 added: "2015-04-27"

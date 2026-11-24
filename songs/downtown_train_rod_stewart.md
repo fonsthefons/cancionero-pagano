@@ -1,5 +1,6 @@
 ---
 title: Downtown Train
+key: G
 autor: Rod Stewart
 capo: "3"
 link: "https://open.spotify.com/track/5XJzh2c0roCc6GDs8PrILx"

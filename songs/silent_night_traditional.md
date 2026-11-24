@@ -1,5 +1,6 @@
 ---
 title: Silent Night
+key: G
 autor: Traditional
 link: "https://open.spotify.com/track/4VHgaqyhJlykVM8Y6HIyc4"
 added: "2018-12-02"

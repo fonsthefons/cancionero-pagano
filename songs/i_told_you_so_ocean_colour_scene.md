@@ -1,5 +1,6 @@
 ---
 title: I Told You So
+key: E
 autor: Ocean Colour Scene
 link: "https://open.spotify.com/track/69cquiXZUnHBzdKAc1iEiG"
 added: "2016-08-30"

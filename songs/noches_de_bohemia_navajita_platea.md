@@ -1,5 +1,6 @@
 ---
 title: Noches De Bohemia
+key: C
 autor: Navajita Platea
 capo: "2"
 link: "https://open.spotify.com/track/78GUxsLIyH3ZohwhNCTKES"

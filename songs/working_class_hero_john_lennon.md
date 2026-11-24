@@ -1,5 +1,6 @@
 ---
 title: Working Class Hero
+key: Am
 autor: John Lennon
 link: "https://open.spotify.com/track/36YUxl84a0EEk39XTPkh3V"
 added: "2017-09-13"

@@ -1,5 +1,6 @@
 ---
 title: Is Your Love In Vain?
+key: D
 autor: Bob Dylan
 link: "https://open.spotify.com/track/5HxaRsnKOw5kVzoTXK42gD"
 added: "2015-12-11"

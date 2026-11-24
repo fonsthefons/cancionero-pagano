@@ -1,5 +1,6 @@
 ---
 title: La Veo Pasar
+key: Fm
 autor: La Cava
 link: "https://open.spotify.com/track/1hAJZMI6F0GdYcAKmZ6ZhN"
 added: "2020-03-09"
@@ -8,16 +9,16 @@ song_tags:
 ---
 
 Intro:
-Fm  C#  A#  C
-Fm  G#  C#  A#m  C
+Fm  Db  Bb  C
+Fm  Ab  Db  Bbm  C
 
          Fm
 La veo pasar, camina sola
            F
 y en el murmullo dice la gente
-C#                    C
+Db                    C
 que a ella nadie la enamora
-                         C#
+                         Db
 día tras día, su dulce aroma
              C            F    C
 llega y se asoma, al alma mía
@@ -25,38 +26,38 @@ llega y se asoma, al alma mía
 No existe luna, ni firmamento
           Fm            F
 cuando aparece roba mi alma
-                      A#m
+                      Bbm
 y es la reina de mis sueños
-        D#                    G#      Fm
+        Eb                    Ab      Fm
 y desespero entre la gente al verla sola
              C             Fm
 al ver el viento, rozar su boca
 
-F#                          Fm
+Gb                          Fm
 Suenan las campanas de la giralda
-F#                          Fm
+Gb                          Fm
 y en el horizonte se pone el sol
-        D#            G#
+        Eb            Ab
 ¿Dónde vive?,¿Dónde sueña?
           C            F     C
 ¿Dónde esconde el corazón?
 
-F                                   A#m
+F                                   Bbm
 Déjame quererte, déjame que yo te quiera
-     D#                                        G#      C
+     Eb                                        Ab      C
 deja que pase el tiempo eternamente en la primavera
- F                                  A#m
+ F                                  Bbm
 déjame quererte, déjame que yo te quiera
-                    D#                C#                   C
+                    Eb                Db                   C
 deja que nuestros cuerpos se abracen bajo mantas de estrellas
 
          Fm
 La veo pasar, se sienta sola
           F
 y en ese banco callada dicen
-       C#            C
+       Db            C
 que se pasa horas y horas
-                             C#
+                             Db
 su piel morena, mirando al cielo
           C              F     C
 es centinela, de mis desvelos
@@ -64,27 +65,27 @@ es centinela, de mis desvelos
 Con las estrellas, se entretenía
     Fm                     F
 la noche que me senté a su vera
-                  A#m
+                  Bbm
 y al mirarla me moría,
-        D#                    C#m7
+        Eb                    Dbm7
 y presente mi corazón a la batalla
           C           Fm
 pero no supe decirle nada
 
- F#                         Fm
+ Gb                         Fm
 Suenan las campanas de la giralda
- F#                         Fm
+ Gb                         Fm
 y en el horizonte se pone el sol
-        D#            G#
+        Eb            Ab
 ¿Dónde vive?,¿Dónde sueña?
           C            F     C
 ¿Dónde esconde el corazón?
 
-F                                   A#m
+F                                   Bbm
 Déjame quererte, déjame que yo te quiera
-     D#                                        G#      C
+     Eb                                        Ab      C
 deja que pase el tiempo eternamente en la primavera
- F                                  A#m
+ F                                  Bbm
 déjame quererte, déjame que yo te quiera
-                    D#                C#                   C
+                    Eb                Db                   C
 deja que nuestros cuerpos se abracen bajo mantas de estrellas

@@ -1,5 +1,6 @@
 ---
 title: That'll Be The Day
+key: A
 autor: Buddy Holly
 link: "https://open.spotify.com/track/7K5hYMEb0WOxvP0sRbqaLy"
 added: "2015-12-11"

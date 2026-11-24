@@ -1,5 +1,6 @@
 ---
 title: Californication
+key: Am
 autor: Red Hot Chili Peppers
 link: "https://open.spotify.com/track/34KTEhpPjq6IAgQg2yzJAL"
 added: "2015-12-11"

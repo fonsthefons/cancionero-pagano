@@ -1,5 +1,6 @@
 ---
 title: How To Save A Life
+key: G
 autor: The Fray
 capo: "3"
 link: "https://open.spotify.com/track/5fVZC9GiM4e8vu99W0Xf6J"

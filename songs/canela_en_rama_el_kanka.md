@@ -1,5 +1,6 @@
 ---
 title: Canela En Rama
+key: Dm
 autor: El Kanka
 link: "https://open.spotify.com/track/4mXfHJAMHBFwq4MdQxne2L"
 added: "2015-12-11"
@@ -48,7 +49,7 @@ me quedé en tu cama
 No combinan tus cortinas con mis entretelas
        Gm7       F          Fm         Fsus2
 y aún así hoy cocino en tu cocina, corazón
-G#7+9    G7+9  C/G   Gm7
+Ab7+9    G7+9  C/G   Gm7
 canela en rama
        F            Fm       Fsus2  Gm7
 hoy cocino en tu cocina, corazón
@@ -88,12 +89,12 @@ me quedé en tu cama
 No combinan tus cortinas con mis entretelas
        Gm7       F          Fm         Fsus2
 y aún así hoy cocino en tu cocina, corazón
-G#7+9    G7+9  C/G   Gm7
+Ab7+9    G7+9  C/G   Gm7
 canela en rama
 
-F        Fm      Gm7     G#7+9    G7+9  C/G
+F        Fm      Gm7     Ab7+9    G7+9  C/G
 en tu cocina, corazón... canela en rama
-F        Fm      Gm7     G#7+9    G7+9  C/G
+F        Fm      Gm7     Ab7+9    G7+9  C/G
 en tu cocina, corazón... canela en rama
 
       E-A-D-G-B-E             E-A-D-G-B-E                E-A-D-G-B-E

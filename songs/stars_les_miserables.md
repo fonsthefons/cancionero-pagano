@@ -1,5 +1,6 @@
 ---
 title: Stars
+key: E
 autor: Les Misérables
 link: "https://open.spotify.com/track/2ALr7kM7siC3llPP8NTKaK"
 added: "2015-02-09"

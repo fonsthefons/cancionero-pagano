@@ -1,5 +1,6 @@
 ---
 title: Dulce Introducción Al Caos
+key: G
 autor: Extremoduro
 link: "https://open.spotify.com/track/1aDeaDooAd79p2sdImGG4a"
 added: "2016-08-20"

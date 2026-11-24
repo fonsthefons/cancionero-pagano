@@ -1,5 +1,6 @@
 ---
 title: Pastillas Para No Soñar
+key: A
 autor: Joaquín Sabina
 link: "https://open.spotify.com/track/0RPwVt8fQ0A27ERtSSmxAe"
 added: "2017-07-07"

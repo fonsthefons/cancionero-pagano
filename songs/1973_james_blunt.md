@@ -1,5 +1,6 @@
 ---
 title: "1973"
+key: Em
 autor: James Blunt
 capo: "2"
 link: "https://open.spotify.com/track/1BV0m40U0M4t1SLIsDnwZl"

@@ -1,5 +1,6 @@
 ---
 title: Islands In The Stream
+key: Fm
 autor: Kenny Rogers
 link: "https://open.spotify.com/track/6dnco8haegnJYtylV26cBq"
 added: "2021-07-12"

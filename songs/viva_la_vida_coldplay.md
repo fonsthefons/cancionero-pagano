@@ -1,5 +1,6 @@
 ---
 title: Viva La Vida
+key: G
 autor: Coldplay
 capo: "1"
 link: "https://open.spotify.com/track/1mea3bSkSGXuIRvnydlB5b"

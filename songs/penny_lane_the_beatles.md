@@ -1,5 +1,6 @@
 ---
 title: Penny Lane
+key: A
 autor: The Beatles
 capo: "2"
 link: "https://open.spotify.com/track/1sjmKmR4u9xDeJHjDCn2bZ"
